@@ -1,5 +1,11 @@
 # SpringBoot
 
+## 常见问题：
+
+1、druid报错，要同时引入jdbc包
+
+2、springboot默认前端页面放到static和templates，  否则要在mvc配置指定路径
+
 ## 一、简介
 
 ### 1、前置

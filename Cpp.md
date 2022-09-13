@@ -121,8 +121,101 @@ c++中的set是默认排序的
 
 
 
-### 4、注意事项
+### 4、字符串
+
+#### 读取
+
+char a[10];
+
+sacnf("%s",a+1);
+
+从第一个位置开始读入，方便操作
+
+
+
+#### 包含
+
+一个字符串是否包含另一个字符串
+
+(s + s).find(goal) != string::npos;
+
+
+
+#### 字符串和整数转换
+
+to_string(num);
+
+stoi(string）
+
+
+
+#### 排序
+
+```
+ string s(str.rbegin(),str.rend());  降序
+```
+
+### 5、注意事项
 
 从一个容器取出另一个容器，最好用&
 
 比如set s=&map[index]
+
+
+
+
+
+### 6、堆
+
+ //定义小顶堆  priority_queue<int,vector<int>,greater<int>>heap;
+
+
+
+### 7、vector
+
+#### 排序
+
+```cpp
+sort默认排序从小到大，使用greater<int>()
+
+        #include <iostream>
+#include <vector>
+#include <algorithm>
+using namespace std;
+
+        int main() {
+        int a[] = {8,6,2,9,3,5,4,1,7,10};
+        vector<int> arr(a, a+5);
+        sort(arr.begin(),arr.end(),greater<int>());
+        for(int i = 0; i <arr.size(); ++i){
+        cout <<arr[i] << " ";
+        }
+        return 0 ;
+        }
+
+        方法二：自定义函数
+        #include <iostream>
+         #include <vector>
+         #include <algorithm>
+         using namespace std;
+
+        bool cmp_max(int x,int y){
+              return x > y;
+        }
+
+        int main() {
+        int a[] = {8,6,2,9,3,5,4,1,7,10};
+        vector<int> arr(a, a+5);
+        sort(arr.begin(),arr.end(),cmp_max);
+        for(int i = 0; i <arr.size(); ++i){
+             cout <<arr[i] << " ";
+        }
+        return 0 ;
+        }
+```
+
+
+
+#### 二维
+
+ vector<vector<int>>a(m,vector<int>(n));
