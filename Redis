@@ -1,2 +1,103 @@
 # Redis
 
+## 注意：
+
+使用图形化界面记得关闭虚拟机的防火墙
+
+## 一、简介
+
+### 1、特点
+
+键值对数据库
+
+![微信截图_20220913193748](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220913193748.png)
+
+
+
+### 2、nosql
+
+![微信截图_20220913194425](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220913194425.png)
+
+
+
+![微信截图_20220913194811](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220913194811.png)
+
+
+
+
+
+![微信截图_20220913195111](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220913195111.png)
+
+
+
+
+
+### 3、认识Redis
+
+![微信截图_20220913200537](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220913200537.png)
+
+
+
+## 二、启动和安装
+
+### 1、安装
+
+安装到linux上
+
+![微信截图_20220920035944](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220920035944.png)
+
+
+
+![微信截图_20220920041942](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220920041942.png)
+
+
+
+### 2、启动命令
+
+![微信截图_20220920042304](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220920042304.png)
+
+
+
+![微信截图_20220920171923](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220920171923.png)
+
+
+
+
+
+### 3、相关配置
+
+![微信截图_20220920172720](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220920172720.png)
+
+
+
+![微信截图_20220920172831](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220920172831.png)
+
+
+
+![微信截图_20220920173154](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220920173154.png)
+
+
+
+### 4、后台启动
+
+先进入cd /
+
+![微信截图_20220922005045](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922005045.png)
+
+
+
+停止
+
+![微信截图_20220922004910](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922004910.png)
+
+ps -ef | grep redis  查看状态
+
+![微信截图_20220922014152](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922014152.png)
+
+### 5、开机启动
+
+![微信截图_20220920174442](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220920174442.png)
+
+![微信截图_20220922005630](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922005630.png)
+
+![微信截图_20220922014428](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922014428.png)

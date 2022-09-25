@@ -93,3 +93,9 @@
 ![微信截图_20220903182316](C:\Users\waili\Desktop\usual\微信截图\swagger\微信截图_20220903182316.png)
 
 ![微信截图_20220903182448](C:\Users\waili\Desktop\usual\微信截图\swagger\微信截图_20220903182448.png)
+
+
+
+### 4、实体类
+
+![](C:\Users\waili\Desktop\usual\微信截图\swagger\微信截图_20220915220141.png)

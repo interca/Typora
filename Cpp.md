@@ -99,6 +99,10 @@ m.count(x)  如果为0就是不存在
 
 
 
+3、排序
+
+![](C:\Users\waili\Desktop\usual\微信截图\错题力扣\微信截图_20220919002108.png)
+
 
 
 
@@ -219,3 +223,50 @@ using namespace std;
 #### 二维
 
  vector<vector<int>>a(m,vector<int>(n));
+
+
+
+#### 插入
+
+![](C:\Users\waili\Desktop\usual\微信截图\错题力扣\微信截图_20220919224727.png)
+
+
+
+### 8、比较器
+
+比较器就行了
+
+和java一样
+
+```cPP
+class Solution {
+
+    public:
+    static bool cmp(vector<int>v1,vector<int>v2){
+        if(v1[0]!=v2[0])return v1[0]>v2[0];
+        return v1[1]<v2[1];
+    }
+    vector<vector<int>> reconstructQueue(vector<vector<int>>& people) {
+        sort(people.begin(),people.end(),cmp);
+        vector<vector<int>>v;
+        for(auto&t:people){
+            v.insert(v.begin()+t[1],t);
+        }
+        return v;
+    }
+};
+```
+
+
+
+
+
+简介代码自定义比较器
+
+![](C:\Users\waili\Desktop\usual\微信截图\错题力扣\微信截图_20220919002841.png)
+
+
+
+Java的
+
+![](C:\Users\waili\Desktop\usual\微信截图\错题力扣\微信截图_20220919003241.png)
