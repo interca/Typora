@@ -1,6 +1,7 @@
 # JDBC入门黑马
 
 ## 1、介绍
+![输入图片说明](.idea/image.png)
 
 <img src="C:\Users\waili\Desktop\usual\微信截图\JDBC黑马\微信截图_20220714132101.png" alt="微信截图_20220714132101" style="zoom:67%;" />
 
