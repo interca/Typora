@@ -84,6 +84,22 @@
 
 
 
+
+
+### 登录过程
+
+把密码传入usernamepasswordauthenticationtoken    然后  UserviceImpl查询数据库
+
+两个进行比较
+
+这里前端的密码进入方法后会自动进行加密
+
+![微信截图_20220929011053](C:\Users\waili\Desktop\usual\微信截图\spring security\微信截图_20220929011053.png)
+
+![微信截图_20220929011227](C:\Users\waili\Desktop\usual\微信截图\spring security\微信截图_20220929011227.png)
+
+
+
 ### 7、认证过滤器
 
 ![微信截图_20220909154419](C:\Users\waili\Desktop\usual\微信截图\spring security\微信截图_20220909154419.png)
@@ -135,3 +151,25 @@
 ### 4、跨域
 
 ![微信截图_20220913023454](C:\Users\waili\Desktop\usual\微信截图\spring security\微信截图_20220913023454.png)
+
+
+
+
+
+## 四、异常
+
+### 1、过滤器的异常
+
+因为过滤器的异常不能被全局捕获
+
+所以我们要用安全框架自带的异常
+
+我们可以把异常存入session中
+
+![微信截图_20220929005517](C:\Users\waili\Desktop\usual\微信截图\spring security\微信截图_20220929005517.png)
+
+![微信截图_20220929005549](C:\Users\waili\Desktop\usual\微信截图\spring security\微信截图_20220929005549.png)
+
+![微信截图_20220929005559](C:\Users\waili\Desktop\usual\微信截图\spring security\微信截图_20220929005559.png)
+
+![微信截图_20220929005607](C:\Users\waili\Desktop\usual\微信截图\spring security\微信截图_20220929005607.png)

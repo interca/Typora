@@ -6,6 +6,26 @@
 
 2、springboot默认前端页面放到static和templates，  否则要在mvc配置指定路径
 
+entity   和数据库对应
+
+dto   和前端传过来数据对应
+
+vo  返回给前端的数据
+
+
+
+
+
+## 技巧
+
+拷贝工具类
+
+BeanUtils
+
+![](C:\Users\waili\Desktop\usual\微信截图\springboot\微信截图_20221009031156.png)
+
+
+
 ## 一、简介
 
 ### 1、前置
@@ -310,6 +330,18 @@ plus不能和mybatis一起导入，要不然报错，plus兼容配置文件
 
 ![微信截图_20220815154932](C:\Users\waili\Desktop\usual\微信截图\springboot\微信截图_20220815154932.png)
 
+
+
+
+
+![](C:\Users\waili\Desktop\usual\微信截图\springboot\微信截图_20221009025909.png)
+
+
+
+
+
+
+
 ### 5、日志
 
 ![微信截图_20220815152654](C:\Users\waili\Desktop\usual\微信截图\springboot\微信截图_20220815152654.png)
@@ -548,3 +580,150 @@ pom中配置(不推荐)
 
 ### 9、日志
 
+
+
+![微信截图_20220825040451](C:\Users\waili\Desktop\usual\微信截图\springboot\微信截图_20220825040451.png)
+
+
+
+日志级别
+
+![微信截图_20220822234658](C:\Users\waili\Desktop\usual\微信截图\springboot\微信截图_20220822234658.png)
+
+
+
+分组设置
+
+![微信截图_20220822235112](C:\Users\waili\Desktop\usual\微信截图\springboot\微信截图_20220822235112.png)
+
+
+
+代码中输出日志
+
+![微信截图_20220822235137](C:\Users\waili\Desktop\usual\微信截图\springboot\微信截图_20220822235137.png)
+
+
+
+
+
+注解输出日志
+
+![微信截图_20220825032728](C:\Users\waili\Desktop\usual\微信截图\springboot\微信截图_20220825032728.png)
+
+
+
+日志格式
+
+
+
+![微信截图_20220825033117](C:\Users\waili\Desktop\usual\微信截图\springboot\微信截图_20220825033117.png)
+
+
+
+
+
+设置日志输出格式
+
+![微信截图_20220825034025](C:\Users\waili\Desktop\usual\微信截图\springboot\微信截图_20220825034025.png)
+
+
+
+设置日志文件
+
+![微信截图_20220825040321](C:\Users\waili\Desktop\usual\微信截图\springboot\微信截图_20220825040321.png)
+
+
+
+
+
+
+
+### 10、热部署
+
+![微信截图_20220904203742](C:\Users\waili\Desktop\usual\微信截图\springboot\微信截图_20220904203742.png)
+
+‘
+
+![微信截图_20220904204001](C:\Users\waili\Desktop\usual\微信截图\springboot\微信截图_20220904204001.png)
+
+
+
+
+
+手动
+
+![微信截图_20220904204013](C:\Users\waili\Desktop\usual\微信截图\springboot\微信截图_20220904204013.png)
+
+
+
+热部署范围
+
+![微信截图_20220904205401](C:\Users\waili\Desktop\usual\微信截图\springboot\微信截图_20220904205401.png)
+
+
+
+![微信截图_20220904205411](C:\Users\waili\Desktop\usual\微信截图\springboot\微信截图_20220904205411.png)
+
+
+
+![微信截图_20220904211101](C:\Users\waili\Desktop\usual\微信截图\springboot\微信截图_20220904211101.png)
+
+
+
+
+
+### **11、第三方bean**
+
+
+
+![微信截图_20220905051926](C:\Users\waili\Desktop\usual\微信截图\springboot\微信截图_20220905051926.png)
+
+
+
+![微信截图_20220905052747](C:\Users\waili\Desktop\usual\微信截图\springboot\微信截图_20220905052747.png)
+
+
+
+
+
+enable已经定义它被spring管控
+
+所以serverconfig不用加component
+
+![微信截图_20220905052850](C:\Users\waili\Desktop\usual\微信截图\springboot\微信截图_20220905052850.png)
+
+
+
+
+
+![微信截图_20220905052902](C:\Users\waili\Desktop\usual\微信截图\springboot\微信截图_20220905052902.png)
+
+
+
+
+
+![微信截图_20220905053841](C:\Users\waili\Desktop\usual\微信截图\springboot\微信截图_20220905053841.png)
+
+
+
+
+
+![微信截图_20220905054957](C:\Users\waili\Desktop\usual\微信截图\springboot\微信截图_20220905054957.png)
+
+
+
+### 12、事物
+
+![微信截图_20221005231000](C:\Users\waili\Desktop\usual\微信截图\springboot\微信截图_20221005231000.png)
+
+![微信截图_20221005231014](C:\Users\waili\Desktop\usual\微信截图\springboot\微信截图_20221005231014.png)
+
+
+
+
+
+### 13、拦截器
+
+![微信截图_20220926013546](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220926013546.png)
+
+![微信截图_20220926013555](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220926013555.png)

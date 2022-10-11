@@ -123,6 +123,10 @@ c++中的set是默认排序的
 
 如果要用值加上*(set.begin())
 
+尾元素 end()
+
+删除 :  s.erase(index)值  不是下表
+
 
 
 ### 4、字符串
@@ -141,7 +145,9 @@ sacnf("%s",a+1);
 
 一个字符串是否包含另一个字符串
 
-(s + s).find(goal) != string::npos;
+(s + s).find(goal) != string::npos;  包含
+
+或者  s.find(w)==0  是包括
 
 
 
@@ -159,6 +165,18 @@ stoi(string）
  string s(str.rbegin(),str.rend());  降序
 ```
 
+
+
+
+
+### 删除
+
+s.erase(a,b)从a开始 删除b个元素
+
+
+
+
+
 ### 5、注意事项
 
 从一个容器取出另一个容器，最好用&
@@ -175,9 +193,13 @@ stoi(string）
 
 
 
+
+
 ### 7、vector
 
-#### 排序
+####  7.1排序
+
+rbegin()   rend()从大到小
 
 ```cpp
 sort默认排序从小到大，使用greater<int>()
@@ -220,15 +242,49 @@ using namespace std;
 
 
 
-#### 二维
+#### 7.2 二维
 
  vector<vector<int>>a(m,vector<int>(n));
 
 
 
-#### 插入
+#### 7.3 插入
+
+插入某个位置
+
+insert(v.begin()+数字，插入数字)
+
+插入前面后面
+
+push_back        push_front    
+
+
+
+#### 7.4删除
+
+pop_back   pop_front
+
+begin()     end()  
+
+删除
+
+ v.erase(v.begin()+1);   删除第几个元素
+
+v.erase(v.begin()+1,v.begin()+2)  左闭右开
 
 ![](C:\Users\waili\Desktop\usual\微信截图\错题力扣\微信截图_20220919224727.png)
+
+
+
+emplace_back()
+
+该函数是 [C++](http://c.biancheng.net/cplus/) 11 新增加的，其功能和 push_back() 相同，都是在 vector 容器的尾部添加一个元素。
+
+
+
+
+
+
 
 
 
@@ -259,6 +315,15 @@ class Solution {
 
 
 
+二维数组排序
+
+```cpp
+sort(nums1.rbegin(),nums1.rend());
+    sort(v.begin(),v.end(),[&](vector<int>&h1,vector<int>&h2){
+    return h1[0]>h2[0];
+    }
+```
+
 
 
 简介代码自定义比较器
@@ -270,3 +335,44 @@ class Solution {
 Java的
 
 ![](C:\Users\waili\Desktop\usual\微信截图\错题力扣\微信截图_20220919003241.png)
+
+
+
+### 9、常用函数
+
+ **memset(st, false, sizeof st);**
+
+初始化
+
+
+
+**earse**
+
+前面的文章中提到过如何向容器中添加元素，这里介绍一个如何删除容器中元素的函数，包括顺序容器和关联容器。
+
+就是这个erase函数，基本用法如下：
+
+c.erase( p)------------------------------从c中删除迭代器p指定的元素，p必须指向c中的一个真实元素，不能等于c.end()
+
+c.erase(b,e)----------------------------从c中删除迭代器对b和e所表示的范围中的元素，返回e
+
+具体用法如下：
+
+vector<string> e = {"a","b","c","d","e","f","g"};
+e.erase("c");        //删除字符串“c”
+auto it = e.end()-1;  //.end()指向末尾的后一个元素，因此需要-1，指向末尾元素    
+e.erase(it);           //删除末尾元素“e”
+auto it2 = e.begin()+1;
+auto it3 = e.end()-2;
+e.erase(it2,it3);    //删除it2到it3之间的元素
+
+
+
+字符串里面是指定开始位置和长度
+
+
+
+reverse(a.begin(),a.end)  反转函数
+
+
+

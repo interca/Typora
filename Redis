@@ -90,9 +90,17 @@
 
 ![微信截图_20220922004910](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922004910.png)
 
+
+
+
+
 ps -ef | grep redis  查看状态
 
 ![微信截图_20220922014152](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922014152.png)
+
+
+
+
 
 ### 5、开机启动
 
@@ -101,3 +109,316 @@ ps -ef | grep redis  查看状态
 ![微信截图_20220922005630](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922005630.png)
 
 ![微信截图_20220922014428](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922014428.png)
+
+
+
+## 三、客户端
+
+### 1、默认值
+
+![微信截图_20220922044240](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922044240.png)
+
+
+
+![微信截图_20220922044421](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922044421.png)
+
+
+
+
+
+### 2、启动客户端
+
+![微信截图_20220922054155](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922054155.png)
+
+
+
+## 四、数据结构
+
+### 1、总览
+
+![微信截图_20220922064751](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922064751.png)
+
+
+
+![微信截图_20220922065439](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922065439.png)
+
+![微信截图_20220922065451](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922065451.png)
+
+
+
+### 2、通用命令
+
+![微信截图_20220922071408](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922071408.png)
+
+
+
+### 3、目录结构
+
+![微信截图_20220922110142](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922110142.png)
+
+
+
+### 4、字符串
+
+![微信截图_20220922071558](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922071558.png)
+
+![微信截图_20220922071710](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922071710.png)
+
+
+
+
+
+### 5、哈希
+
+![微信截图_20220922111123](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922111123.png)
+
+
+
+![微信截图_20220922111149](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922111149.png)
+
+
+
+### 6、list
+
+![微信截图_20220922112437](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922112437.png)
+
+![微信截图_20220922112617](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922112617.png)
+
+
+
+### 7、set
+
+![微信截图_20220922115746](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922115746.png)
+
+![微信截图_20220922120056](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922120056.png)
+
+
+
+### 8、sortedset
+
+![微信截图_20220922120849](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922120849.png)
+
+
+
+![微信截图_20220922120903](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922120903.png)
+
+
+
+
+
+## 五、java客户端
+
+### 1、简介
+
+![微信截图_20220922194733](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922194733.png)**
+
+
+
+### 2、jedis
+
+![微信截图_20220922195532](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922195532.png)
+
+![微信截图_20220922200305](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922200305.png)
+
+![微信截图_20220922205206](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922205206.png)
+
+
+
+
+
+jedis链接
+
+![微信截图_20220922205550](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922205550.png)
+
+
+
+### **3、stringdataredis(重点)**
+
+![微信截图_20220923085044](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220923085044.png)
+
+
+
+
+
+#### 1、常用方法
+
+![微信截图_20220923085944](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220923085944.png)
+
+
+
+#### 2、依赖
+
+![微信截图_20220923090222](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220923090222.png)
+
+
+
+#### 3、配置文件
+
+![微信截图_20220923091055](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220923091055.png)
+
+
+
+#### 4、测试
+
+![微信截图_20220923091124](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220923091124.png)
+
+
+
+#### 5、缺点
+
+名字会出现乱码
+
+![微信截图_20220923092930](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220923092930.png)
+
+
+
+![微信截图_20220924130759](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220924130759.png)
+
+![微信截图_20220924132504](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220924132504.png)
+
+
+
+#### 6、手动序列化(重要)
+
+
+
+![微信截图_20220924132733](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220924132733.png)
+
+
+
+![微信截图_20220924132802](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220924132802.png)
+
+
+
+
+
+
+
+#### 7、总结
+
+
+
+![微信截图_20220924134140](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220924134140.png)
+
+
+
+配置文件
+
+![微信截图_20220924205819](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220924205819.png)
+
+
+
+#### 8、存储例子
+
+集合对象存入redis
+
+![微信截图_20221003210421](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20221003210421.png)
+
+
+
+普通对象存入redis
+
+![微信截图_20221003210447](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20221003210447.png)
+
+
+
+哈希存储
+
+![微信截图_20220927215940](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220927215940.png)
+
+![微信截图_20220927223548](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220927223548.png)
+
+#### 9、设置时长
+
+![微信截图_20221003211144](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20221003211144.png)
+
+
+
+
+
+## 六、登录
+
+### 1、session共享
+
+![微信截图_20220927021902](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220927021902.png)
+
+
+
+![微信截图_20220927202140](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220927202140.png)
+
+
+
+### 2、redis保存数据
+
+![微信截图_20220927202549](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220927202549.png)
+
+
+
+![微信截图_20220927203155](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220927203155.png)
+
+
+
+### 3、登录流程
+
+生成验证码保存到redis
+
+![微信截图_20220927215921](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220927215921.png)
+
+
+
+然后检验
+
+![微信截图_20220927215940](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220927215940.png)
+
+
+
+## 七、缓存
+
+### 1、概念
+
+![微信截图_20221001022338](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20221001022338.png)
+
+
+
+
+
+### 2、redis
+
+
+
+![微信截图_20221001022549](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20221001022549.png)
+
+
+
+![微信截图_20221003031500](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20221003031500.png)
+
+
+
+### 3、缓存更新
+
+查询的时候先查询缓存 
+
+然后再查询数据库
+
+
+
+![微信截图_20221003211347](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20221003211347.png)
+
+![微信截图_20221003211808](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20221003211808.png)
+
+![微信截图_20221003212115](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20221003212115.png)
+
+
+
+![微信截图_20221003212720](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20221003212720.png)
+
+
+
+![微信截图_20221003212813](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20221003212813.png)
+
+
+
+![微信截图_20221003213705](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20221003213705.png)
+
+
+
