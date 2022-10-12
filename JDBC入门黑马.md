@@ -37,7 +37,7 @@
 
 回滚事物
 
-![微信截图_20220714155532](C:\Users\waili\Desktop\usual\微信截图\JDBC黑马\微信截图_20220714155532.png)
+![微信截图_20220714155532](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220714155532.png)
 
 
 
@@ -53,17 +53,17 @@
 
 ![微信截图_20220714234610](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220714234610.png)
 
-<img src="C:\Users\waili\Desktop\usual\微信截图\JDBC黑马\微信截图_20220714234821.png" alt="微信截图_20220714234821" style="zoom:67%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220714234821.png" alt="微信截图_20220714234821" style="zoom:67%;" />
 
-![微信截图_20220714235000](C:\Users\waili\Desktop\usual\微信截图\JDBC黑马\微信截图_20220714235000.png)
+![微信截图_20220714235000](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220714235000.png)
 
 
 
 ## 6、sql注入
 
-<img src="C:\Users\waili\Desktop\usual\微信截图\JDBC黑马\微信截图_20220715111402.png" alt="微信截图_20220715111402" style="zoom:67%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220715111402.png" alt="微信截图_20220715111402" style="zoom:67%;" />
 
-![微信截图_20220715121520](C:\Users\waili\Desktop\usual\微信截图\JDBC黑马\微信截图_20220715121520.png)
+![微信截图_20220715121520](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220715121520.png)
 
 
 
@@ -73,22 +73,22 @@
 
 ### 1、介绍
 
-<img src="C:\Users\waili\Desktop\usual\微信截图\JDBC黑马\微信截图_20220716005126.png" alt="微信截图_20220716005126" style="zoom:67%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220716005126.png" alt="微信截图_20220716005126" style="zoom:67%;" />
 
-<img src="C:\Users\waili\Desktop\usual\微信截图\JDBC黑马\微信截图_20220716005607.png" alt="微信截图_20220716005607" style="zoom: 67%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220716005607.png" alt="微信截图_20220716005607" style="zoom: 67%;" />
 
 
 
 ### 2、初始化文件
 
-![微信截图_20220716011355](C:\Users\waili\Desktop\usual\微信截图\JDBC黑马\微信截图_20220716011355.png)
+![微信截图_20220716011355](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220716011355.png)
 
 ### 3、配置
 
-![微信截图_20220716013136](C:\Users\waili\Desktop\usual\微信截图\JDBC黑马\微信截图_20220716013136.png)
+![微信截图_20220716013136](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220716013136.png)
 
 ### 4、代码
 
-![微信截图_20220716013148](C:\Users\waili\Desktop\usual\微信截图\JDBC黑马\微信截图_20220716013148.png)
+![微信截图_20220716013148](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220716013148.png)
 
-![微信截图_20220716014403](C:\Users\waili\Desktop\usual\微信截图\JDBC黑马\微信截图_20220716014403.png)
+![微信截图_20220716014403](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220716014403.png)
