@@ -121,7 +121,7 @@ alert()是警告框
 
 在页面上展示图片,src是路径
 
-![](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信图片_20220704221113.jpg)
+![](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20220704221113.jpg)
 
 
 
@@ -546,9 +546,9 @@ typedef(a)返回类型
 
 ### **7、逻辑运算符**
 
-![](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220704231006.png)
+![](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220704231006.png)
 
-![](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220704230936.png)
+![](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220704230936.png)
 
 
 
@@ -574,7 +574,7 @@ var a={
 
 ### 10、js内存结构
 
-<img src="C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220705135436.png" style="zoom:50%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220705135436.png" style="zoom:50%;" />
 
 
 
@@ -786,13 +786,13 @@ onsubmit
 
 **3、可以通过dom对象访问标签对象**
 
-<img src="C:\Users\waili\AppData\Roaming\Typora\typora-user-images\image-20220709011146477.png" alt="image-20220709011146477" style="zoom:50%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/image-20220709011146477.png" alt="image-20220709011146477" style="zoom:50%;" />
 
 
 
 ### 14、dom对象方法(重要)
 
-<img src="C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220706134053.png" style="zoom: 67%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220706134053.png" style="zoom: 67%;" />
 
 几个方法都大同小异
 
@@ -959,9 +959,9 @@ onsubmit
 
 ### **15、结点的常用属性和方法**
 
-<img src="C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220706134529.png" style="zoom:50%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220706134529.png" style="zoom:50%;" />
 
-<img src="C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220706134541.png" style="zoom: 67%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220706134541.png" style="zoom: 67%;" />
 
 
 
@@ -1003,16 +1003,15 @@ $(function())来完成加载
 </html>
 ```
 
-<img src="C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220706233247.png" style="zoom:67%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220706233247.png" style="zoom:67%;" />
 
-<img src="C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220706233307.png" style="zoom:67%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220706233307.png" style="zoom:67%;" />
 
 jquery是dom对象的数组
 
 可以互相转换
 
-
-<img src="C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220706233725.png" style="zoom:67%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220706233725.png" style="zoom:67%;" />
 
 
 
@@ -1682,7 +1681,7 @@ div.hide {
 
 #### 6、表单过滤器
 
-<img src="C:\Users\waili\AppData\Roaming\Typora\typora-user-images\image-20220709113751823.png" alt="image-20220709113751823" style="zoom:50%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/image-20220709113751823.png" alt="image-20220709113751823" style="zoom:50%;" />
 
 ```html
 <html>
@@ -1801,11 +1800,11 @@ div.hide {
 
 #### 7、juery元素筛选
 
-<img src="C:\Users\waili\AppData\Roaming\Typora\typora-user-images\image-20220709114346919.png" alt="image-20220709114346919" style="zoom:50%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/image-20220709114346919.png" alt="image-20220709114346919" style="zoom:50%;" />
 
-<img src="C:\Users\waili\AppData\Roaming\Typora\typora-user-images\image-20220709114407703.png" alt="image-20220709114407703" style="zoom:50%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/image-20220709114407703.png" alt="image-20220709114407703" style="zoom:50%;" />
 
-<img src="C:\Users\waili\AppData\Roaming\Typora\typora-user-images\image-20220709114421696.png" alt="image-20220709114421696" style="zoom:50%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/image-20220709114421696.png" alt="image-20220709114421696" style="zoom:50%;" />
 
 ```html
 <html>
@@ -2583,7 +2582,7 @@ fadeToggle()   切换淡入淡出
 
 $(function(){})和window.onload=function(){}区别
 
-<img src="C:\Users\waili\AppData\Roaming\Typora\typora-user-images\image-20220709122530619.png" alt="image-20220709122530619" style="zoom:50%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/image-20220709122530619.png" alt="image-20220709122530619" style="zoom:50%;" />
 
 
 
@@ -2728,7 +2727,7 @@ return false可以阻止冒泡
 
 ### 9、js事件对象
 
-<img src="C:\Users\waili\AppData\Roaming\Typora\typora-user-images\image-20220709123414229.png" alt="image-20220709123414229" style="zoom:50%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/image-20220709123414229.png" alt="image-20220709123414229" style="zoom:50%;" />
 
 ```html
 <html>
@@ -2842,13 +2841,13 @@ return false可以阻止冒泡
 
 ## 六、XML
 
-​	<img src="C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220709153105.png" alt="微信截图_20220709153105" style="zoom:67%;" />										
+​	<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220709153105.png" alt="微信截图_20220709153105" style="zoom:67%;" />										
 
-<img src="C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220709153957.png" alt="微信截图_20220709153957" style="zoom:50%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220709153957.png" alt="微信截图_20220709153957" style="zoom:50%;" />
 
-<img src="C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220709154332.png" alt="微信截图_20220709154332" style="zoom: 67%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220709154332.png" alt="微信截图_20220709154332" style="zoom: 67%;" />
 
-<img src="C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220709155109.png" alt="微信截图_20220709155109" style="zoom:67%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220709155109.png" alt="微信截图_20220709155109" style="zoom:67%;" />
 
 
 
@@ -2856,13 +2855,13 @@ return false可以阻止冒泡
 
 ### 1、介绍
 
-<img src="C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220709171606.png" alt="微信截图_20220709171606" style="zoom:67%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220709171606.png" alt="微信截图_20220709171606" style="zoom:67%;" />
 
-<img src="C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220709173224.png" alt="微信截图_20220709173224" style="zoom:67%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220709173224.png" alt="微信截图_20220709173224" style="zoom:67%;" />
 
-![微信截图_20220709183758](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220709183758.png)
+![微信截图_20220709183758](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220709183758.png)
 
-<img src="C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220709195025.png" alt="微信截图_20220709195025" style="zoom:67%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220709195025.png" alt="微信截图_20220709195025" style="zoom:67%;" />
 
 
 
@@ -2876,7 +2875,7 @@ return false可以阻止冒泡
 
 这样子创建好了
 
-![微信截图_20220709203253](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220709203253.png)
+![微信截图_20220709203253](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220709203253.png)
 
 ### 3、启动
 
@@ -2886,13 +2885,13 @@ return false可以阻止冒泡
 
 然后在web.xml下配置路径
 
-![微信截图_20220710160239](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220710160239.png)
+![微信截图_20220710160239](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220710160239.png)
 
 常见错误
 
-![微信截图_20220710160748](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220710160748.png)
+![微信截图_20220710160748](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220710160748.png)
 
-![微信截图_20220710162017](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220710162017.png)
+![微信截图_20220710162017](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220710162017.png)
 
 
 
@@ -2902,25 +2901,29 @@ return false可以阻止冒泡
 
 ### 5、生命周期
 
-![微信截图_20220710162541](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220710162541.png)
+![微信截图_20220710162541](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220710162541.png)
 
 ### 6、ServletConfig
 
-<img src="C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220710181313.png" alt="微信截图_20220710181313" style="zoom: 200%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220710181313.png" alt="微信截图_20220710181313" style="zoom: 200%;" />
+
+
+
+
 
 ### 7、ServletContext
 
-![微信截图_20220710182233](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220710182233.png)
+![微信截图_20220710182233](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220710182233.png)
 
 
 
-<img src="C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220710231205.png" alt="微信截图_20220710231205" style="zoom:67%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220710231205.png" alt="微信截图_20220710231205" style="zoom:67%;" />
 
 作用
 
-![微信截图_20220710234941](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220710234941.png)
+![微信截图_20220710234941](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220710234941.png)
 
-![微信截图_20220711000033](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220711000033.png)
+![微信截图_20220711000033](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220711000033.png)
 
 
 
@@ -2930,45 +2933,45 @@ return false可以阻止冒泡
 
 get
 
-![微信截图_20220711010158](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220711010158.png)
+![微信截图_20220711010158](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220711010158.png)
 
 post
 
-<img src="C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220711010604.png" alt="微信截图_20220711010604" style="zoom: 50%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220711010604.png" alt="微信截图_20220711010604" style="zoom: 50%;" />
 
 
 
 请求头
 
-![微信截图_20220711010744](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220711010744.png)
+![微信截图_20220711010744](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220711010744.png)
 
 **get和post使用**
 
-<img src="C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220711010832.png" alt="微信截图_20220711010832" style="zoom: 67%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220711010832.png" alt="微信截图_20220711010832" style="zoom: 67%;" />
 
 常见状态
 
-![微信截图_20220711142504](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220711142504.png)
+![微信截图_20220711142504](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220711142504.png)
 
-<img src="C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220711143527.png" alt="微信截图_20220711143527" style="zoom:50%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220711143527.png" alt="微信截图_20220711143527" style="zoom:50%;" />
 
 ### **9、HttpServletRequest**
 
-<img src="C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220711143837.png" alt="微信截图_20220711143837" style="zoom: 67%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220711143837.png" alt="微信截图_20220711143837" style="zoom: 67%;" />
 
-<img src="C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220711144836.png" alt="微信截图_20220711144836" style="zoom:67%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220711144836.png" alt="微信截图_20220711144836" style="zoom:67%;" />
 
 常见方法展示
 
-![微信截图_20220711151928](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220711151928.png)
+![微信截图_20220711151928](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220711151928.png)
 
 
 
-![微信截图_20220711160448](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220711160448.png)
+![微信截图_20220711160448](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220711160448.png)
 
 #### **解决乱码**
 
-![微信截图_20220711160623](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220711160623.png)
+![微信截图_20220711160623](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220711160623.png)
 
 
 
@@ -2976,21 +2979,27 @@ post
 
 大概意思
 
-<img src="C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220711191309.png" alt="微信截图_20220711191309" style="zoom: 50%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220711191309.png" alt="微信截图_20220711191309" style="zoom: 50%;" />
 
-![微信截图_20220711193843](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220711193843.png)
+![微信截图_20220711193843](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220711193843.png)
 
-<img src="C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220711193910.png" alt="微信截图_20220711193910" style="zoom:67%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220711193910.png" alt="微信截图_20220711193910" style="zoom:67%;" />
 
-![微信截图_20220711193956](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220711193956.png)
+![微信截图_20220711193956](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220711193956.png)
 
-![微信截图_20220711194006](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220711194006.png)
+![微信截图_20220711194006](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220711194006.png)
+
+
+
+
+
+
 
 ### 11、路径
 
-![微信截图_20220711231901](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220711231901.png)
+![微信截图_20220711231901](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220711231901.png)
 
-<img src="C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220711232350.png" alt="微信截图_20220711232350" style="zoom:67%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220711232350.png" alt="微信截图_20220711232350" style="zoom:67%;" />
 
 
 
@@ -2998,39 +3007,39 @@ post
 
 ### **12、HttpsevletResponse**
 
-<img src="C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220711232839.png" alt="微信截图_20220711232839" style="zoom:67%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220711232839.png" alt="微信截图_20220711232839" style="zoom:67%;" />
 
 
 
 ### **13、输入输出**
 
-![微信截图_20220711233302](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220711233302.png)
+![微信截图_20220711233302](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220711233302.png)
 
 用法如下：
 
-![微信截图_20220711234647](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220711234647.png)
+![微信截图_20220711234647](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220711234647.png)
 
 设置字符集防止乱码
 
-![微信截图_20220711235809](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220711235809.png)
+![微信截图_20220711235809](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220711235809.png)
 
 简写：
 
-![微信截图_20220711235918](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220711235918.png)
+![微信截图_20220711235918](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220711235918.png)
 
 
 
 ### 14、重定向(重点)
 
-<img src="C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220712164730.png" alt="微信截图_20220712164730" style="zoom:67%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220712164730.png" alt="微信截图_20220712164730" style="zoom:67%;" />
 
 特点：
 
-![微信截图_20220712171253](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220712171253.png)
+![微信截图_20220712171253](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220712171253.png)
 
 方式
 
-![微信截图_20220712172555](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220712172555.png)
+![微信截图_20220712172555](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220712172555.png)
 
 
 
@@ -3040,15 +3049,15 @@ post
 
 
 
-![微信截图_20220712174831](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220712174831.png)
+![微信截图_20220712174831](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220712174831.png)
 
 
 
 ### 2、具体分层
 
-![微信截图_20220712193953](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220712193953.png)
+![微信截图_20220712193953](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220712193953.png)
 
-![微信截图_20220725053108](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220725053108.png)
+![微信截图_20220725053108](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220725053108.png)
 
 ### 3、utils(工具类)
 
@@ -3108,17 +3117,17 @@ public class JDBCutlis {
 
 ### 1、含义
 
-<img src="C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220713213413.png" alt="微信截图_20220713213413" style="zoom:67%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220713213413.png" alt="微信截图_20220713213413" style="zoom:67%;" />
 
 ### 2、头部命令
 
-<img src="C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220714161142.png" alt="微信截图_20220714161142" style="zoom:67%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220714161142.png" alt="微信截图_20220714161142" style="zoom:67%;" />
 
-<img src="C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220714161617.png" alt="微信截图_20220714161617" style="zoom:67%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220714161617.png" alt="微信截图_20220714161617" style="zoom:67%;" />
 
 ### 3、声明和使用
 
-![微信截图_20220714164236](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220714164236.png)
+![微信截图_20220714164236](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220714164236.png)
 
 
 
@@ -3126,35 +3135,35 @@ public class JDBCutlis {
 
 #### 1、声明脚本
 
-<img src="C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220714164316.png" alt="微信截图_20220714164316" style="zoom:67%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220714164316.png" alt="微信截图_20220714164316" style="zoom:67%;" />
 
 #### 2、表达式脚本
 
 
 
-<img src="C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220714165941.png" alt="微信截图_20220714165941" style="zoom:67%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220714165941.png" alt="微信截图_20220714165941" style="zoom:67%;" />
 
 #### 3、代码脚本
 
-![微信截图_20220714211317](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220714211317.png)
+![微信截图_20220714211317](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220714211317.png)
 
-![微信截图_20220714210027](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220714210027.png)
+![微信截图_20220714210027](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220714210027.png)
 
 #### 4、注释
 
-![微信截图_20220714211514](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220714211514.png)
+![微信截图_20220714211514](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220714211514.png)
 
 ### **5、内置对象(重点)**
 
-![微信截图_20220714212213](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220714212213.png)
+![微信截图_20220714212213](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220714212213.png)
 
 ### **6、四大域对象**
 
-<img src="C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220714213539.png" alt="微信截图_20220714213539" style="zoom:67%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220714213539.png" alt="微信截图_20220714213539" style="zoom:67%;" />
 
 注意事项
 
-![微信截图_20220714220101](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220714220101.png)
+![微信截图_20220714220101](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220714220101.png)
 
 
 
@@ -3162,29 +3171,29 @@ public class JDBCutlis {
 
 代码复用
 
-![微信截图_20220714221223](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220714221223.png)
+![微信截图_20220714221223](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220714221223.png)
 
 
 
 ### 8、动态包含
 
-![微信截图_20220714222107](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220714222107.png)
+![微信截图_20220714222107](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220714222107.png)
 
 
 
 ### **9、jsp标签转发**(重要)
 
-![微信截图_20220714222721](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220714222721.png)
+![微信截图_20220714222721](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220714222721.png)
 
 
 
 ### **11、请求转发**
 
-![微信截图_20220714225134](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220714225134.png)
+![微信截图_20220714225134](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220714225134.png)
 
-![微信截图_20220714231047](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220714231047.png)
+![微信截图_20220714231047](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220714231047.png)
 
-![微信截图_20220714231058](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220714231058.png)
+![微信截图_20220714231058](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220714231058.png)
 
 
 
@@ -3192,59 +3201,65 @@ public class JDBCutlis {
 
 #### **1、含义**
 
-![微信截图_20220715132636](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220715132636.png)
+![微信截图_20220715132636](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220715132636.png)
 
 
 
 #### 2、配置
 
-![微信截图_20220715132957](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220715132957.png)
+![微信截图_20220715132957](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220715132957.png)
 
 
 
 #### 3、实现类
 
-![微信截图_20220715133129](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220715133129.png)
+![微信截图_20220715133129](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220715133129.png)
+
+
+
+
+
+
 
 ### 13、el表达式( 比较简洁)
 
 #### 1、含义
 
-![微信截图_20220715133457](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220715133457.png)
+![微信截图_20220715133457](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220715133457.png)
 
 
 
 #### 2、搜索规则
 
-![微信截图_20220715133716](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220715133716.png)
+![微信截图_20220715133716](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220715133716.png)
 
 
 
 #### 3、实现和练习
 
-![微信截图_20220715134404](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220715134404.png)
+![微信截图_20220715134404](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220715134404.png)
 
-![微信截图_20220715134701](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220715134701.png)
+![微信截图_20220715134701](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220715134701.png)
 
 
 
 #### 4、运算符号
 
-![微信截图_20220715134726](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220715134726.png)
+![微信截图_20220715134726](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220715134726.png)
 
 ![微信截图_20220715134839](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220715134839.png)
 
-![微信截图_20220715134904](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220715134904.png)
+![微信截图_20220715134904](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220715134904.png)
 
-![微信截图_20220715134955](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220715134955.png)
+![微信截图_20220715134955](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220715134955.png)
 
-![微信截图_20220715135200](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220715135200.png)
+![微信截图_20220715135200](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220715135200.png)
 
-![微信截图_20220715152046](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220715152046.png)
+![微信截图_20220715152046](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220715152046.png)
 
 #### **5、el表达式的隐含对象**
 
-![微信截图_20220715152506](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220715152506.png)
+![微信截图_20220715152506](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220715152506.png)
 
 
 
@@ -3252,15 +3267,15 @@ public class JDBCutlis {
 
 
 
-![微信截图_20220715170646](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220715170646.png)
+![微信截图_20220715170646](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220715170646.png)
 
 用法：
 
-<img src="C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220715170700.png" alt="微信截图_20220715170700" style="zoom:50%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220715170700.png" alt="微信截图_20220715170700" style="zoom:50%;" />
 
 #### 7、标签库
 
-<img src="C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220715222425.png" alt="微信截图_20220715222425" style="zoom:67%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220715222425.png" alt="微信截图_20220715222425" style="zoom:67%;" />
 
 步骤
 
@@ -3268,47 +3283,47 @@ public class JDBCutlis {
 
 #### 8、保存数据set
 
-<img src="C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220715223235.png" alt="微信截图_20220715223235" style="zoom:67%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220715223235.png" alt="微信截图_20220715223235" style="zoom:67%;" />
 
-![微信截图_20220715224649](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220715224649.png)
+![微信截图_20220715224649](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220715224649.png)
 
-<img src="C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220716001904.png" alt="微信截图_20220716001904" style="zoom:67%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220716001904.png" alt="微信截图_20220716001904" style="zoom:67%;" />
 
 
 
 #### 9、遍历 for each
 
-<img src="C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220716003356.png" alt="微信截图_20220716003356" style="zoom:67%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220716003356.png" alt="微信截图_20220716003356" style="zoom:67%;" />
 
 
 
 #### 10、文件上传
 
-![微信截图_20220716165912](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220716165912.png)
+![微信截图_20220716165912](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220716165912.png)
 
-![微信截图_20220716170526](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220716170526.png)
+![微信截图_20220716170526](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220716170526.png)
 
 常用文件api
 
-![微信截图_20220716175232](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220716175232.png)
+![微信截图_20220716175232](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220716175232.png)
 
-![微信截图_20220716175326](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220716175326.png)
+![微信截图_20220716175326](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220716175326.png)
 
 具体代码：
 
-![微信截图_20220716230716](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220716230716.png)
+![微信截图_20220716230716](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220716230716.png)
 
 
 
 #### 11、文件下载
 
-![微信截图_20220716231351](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220716231351.png)
+![微信截图_20220716231351](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220716231351.png)
 
-![微信截图_20220716233735](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220716233735.png)
+![微信截图_20220716233735](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220716233735.png)
 
 代码：
 
-![微信截图_20220716234052](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220716234052.png)
+![微信截图_20220716234052](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220716234052.png)
 
 
 
@@ -3316,33 +3331,33 @@ public class JDBCutlis {
 
 #### 12、静态包含
 
-<img src="C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220717153027.png" alt="微信截图_20220717153027" style="zoom:67%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220717153027.png" alt="微信截图_20220717153027" style="zoom:67%;" />
 
-![微信截图_20220717153058](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220717153058.png)
+![微信截图_20220717153058](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220717153058.png)
 
 
 
 #### **13、通过反射来调用方法(优化)**
 
-![微信截图_20220717163853](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220717163853.png)
+![微信截图_20220717163853](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220717163853.png)
 
 action是方法名
 
 代码如下：
 
-![微信截图_20220717164549](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220717164549.png)
+![微信截图_20220717164549](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220717164549.png)
 
-![微信截图_20220718011354](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220718011354.png)
+![微信截图_20220718011354](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220718011354.png)
 
-![微信截图_20220718011413](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220718011413.png)
+![微信截图_20220718011413](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220718011413.png)
 
-![微信截图_20220729092727](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220729092727.png)
+![微信截图_20220729092727](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220729092727.png)
 
 
 
 #### 14、MVC
 
-![微信截图_20220718014048](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220718014048.png)
+![微信截图_20220718014048](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220718014048.png)
 
 
 
@@ -3352,35 +3367,35 @@ action是方法名
 
 简单来说是保存用户信息
 
-![微信截图_20220720032828](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220720032828.png)
+![微信截图_20220720032828](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220720032828.png)
 
 ### 2、创建
 
-![微信截图_20220720032642](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220720032642.png)
+![微信截图_20220720032642](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220720032642.png)
 
-![微信截图_20220720032807](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220720032807.png)
+![微信截图_20220720032807](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220720032807.png)
 
 记得每次创建要add
 
 ### 3、操作
 
-![微信截图_20220720141928](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220720141928.png)
+![微信截图_20220720141928](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220720141928.png)
 
-![微信截图_20220720141935](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220720141935.png)
+![微信截图_20220720141935](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220720141935.png)
 
 
 
 修改
 
-![微信截图_20220720142949](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220720142949.png)
+![微信截图_20220720142949](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220720142949.png)
 
 ### 4、生命周期
 
-![微信截图_20220720144826](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220720144826.png)
+![微信截图_20220720144826](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220720144826.png)
 
 ### 5、路径设置
 
-![微信截图_20220720145527](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220720145527.png)
+![微信截图_20220720145527](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220720145527.png)
 
 
 
@@ -3388,21 +3403,21 @@ action是方法名
 
 ### 1、含义
 
-![微信截图_20220720171012](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220720171012.png)
+![微信截图_20220720171012](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220720171012.png)
 
 ### 2、操作
 
-![微信截图_20220721205749](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220721205749.png)
+![微信截图_20220721205749](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220721205749.png)
 
 3、生命周期
 
-![微信截图_20220721211049](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220721211049.png)
+![微信截图_20220721211049](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220721211049.png)
 
 
 
 ### 3、设置时长
 
-![微信截图_20220721211844](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220721211844.png)
+![微信截图_20220721211844](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220721211844.png)
 
 
 
@@ -3414,6 +3429,6 @@ mvc也是判断用户有没有登录成功就是用session来判断
 
 退出登录就是销毁session
 
-![](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220819011207.png)
+![](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220819011207.png)
 
-![](C:\Users\waili\Desktop\usual\微信截图\javaweb\微信截图_20220819011216.png)
+![](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220819011216.png)
