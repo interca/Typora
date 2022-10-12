@@ -574,7 +574,9 @@ pom中配置(不推荐)
 
 看ssm
 
-![微信截图_20220825192348](C:\Users\waili\Desktop\usual\微信截图\springboot\微信截图_20220825192348.png)
+![image-20221012190331617](https://gitee.com/hongshenghyj/typora/raw/master/img/image-20221012190331617.png)
+
+
 
 
 
