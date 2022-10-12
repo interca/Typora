@@ -12,33 +12,33 @@
 
 ## 1、配置
 
-![微信截图_20220905082229](C:\Users\waili\Desktop\usual\微信截图\mybatis-plus\微信截图_20220905082229.png)
+![微信截图_20220905082229](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220905082229.png)
 
 
 
 ## 2、接口简化开发
 
-![微信截图_20220905082246](C:\Users\waili\Desktop\usual\微信截图\mybatis-plus\微信截图_20220905082246.png)
+![微信截图_20220905082246](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220905082246.png)
 
 
 
 ## 3、类名关联数据库
 
-![微信截图_20220905083744](C:\Users\waili\Desktop\usual\微信截图\mybatis-plus\微信截图_20220905083744.png)
+![微信截图_20220905083744](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220905083744.png)
 
 
 
 ## 4、标准开发
 
-![微信截图_20220905084426](C:\Users\waili\Desktop\usual\微信截图\mybatis-plus\微信截图_20220905084426.png)
+![微信截图_20220905084426](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220905084426.png)
 
 
 
 ## 5、lombok
 
-![微信截图_20220905090522](C:\Users\waili\Desktop\usual\微信截图\mybatis-plus\微信截图_20220905090522.png)
+![微信截图_20220905090522](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220905090522.png)
 
-![微信截图_20220905090533](C:\Users\waili\Desktop\usual\微信截图\mybatis-plus\微信截图_20220905090533.png)
+![微信截图_20220905090533](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220905090533.png)
 
 
 
@@ -46,45 +46,45 @@
 
 ## 6、分页
 
-![微信截图_20220905094222](C:\Users\waili\Desktop\usual\微信截图\mybatis-plus\微信截图_20220905094222.png)
+![微信截图_20220905094222](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220905094222.png)
 
 
 
-![微信截图_20220905094242](C:\Users\waili\Desktop\usual\微信截图\mybatis-plus\微信截图_20220905094242.png)
+![微信截图_20220905094242](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220905094242.png)
 
 
 
-![](C:\Users\waili\Desktop\usual\微信截图\mybatis-plus\微信截图_20221002173314.png)
+![](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221002173314.png)
 
 
 
 ## 7、开启日志
 
-![微信截图_20220905094232](C:\Users\waili\Desktop\usual\微信截图\mybatis-plus\微信截图_20220905094232.png)
+![微信截图_20220905094232](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220905094232.png)
 
 
 
 ## 8、查询
 
-![微信截图_20220905094736](C:\Users\waili\Desktop\usual\微信截图\mybatis-plus\微信截图_20220905094736.png)
+![微信截图_20220905094736](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220905094736.png)
 
 
 
 ### 1、条件查询
 
-![微信截图_20220905100745](C:\Users\waili\Desktop\usual\微信截图\mybatis-plus\微信截图_20220905100745.png)
+![微信截图_20220905100745](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220905100745.png)
 
 
 
 ### 2、lambda
 
-![微信截图_20220905101041](C:\Users\waili\Desktop\usual\微信截图\mybatis-plus\微信截图_20220905101041.png)
+![微信截图_20220905101041](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220905101041.png)
 
 
 
 ### 3、多条件
 
-![微信截图_20220905102417](C:\Users\waili\Desktop\usual\微信截图\mybatis-plus\微信截图_20220905102417.png)
+![微信截图_20220905102417](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220905102417.png)
 
 
 
@@ -92,21 +92,21 @@
 
 lt  小于   gt 大于   le小于等于  ge大于等于  eq等于
 
-![微信截图_20220905102916](C:\Users\waili\Desktop\usual\微信截图\mybatis-plus\微信截图_20220905102916.png)
+![微信截图_20220905102916](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220905102916.png)
 
 
 
-![微信截图_20220905104414](C:\Users\waili\Desktop\usual\微信截图\mybatis-plus\微信截图_20220905104414.png)
+![微信截图_20220905104414](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220905104414.png)
 
 
 
-![微信截图_20220905104435](C:\Users\waili\Desktop\usual\微信截图\mybatis-plus\微信截图_20220905104435.png)
+![微信截图_20220905104435](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220905104435.png)
 
 
 
 ### 5、null
 
-![微信截图_20220905105608](C:\Users\waili\Desktop\usual\微信截图\mybatis-plus\微信截图_20220905105608.png)
+![微信截图_20220905105608](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220905105608.png)
 
 
 
@@ -118,19 +118,19 @@ lt  小于   gt 大于   le小于等于  ge大于等于  eq等于
 
 ### 7、等于
 
-![微信截图_20220905180409](C:\Users\waili\Desktop\usual\微信截图\mybatis-plus\微信截图_20220905180409.png)
+![微信截图_20220905180409](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220905180409.png)
 
 
 
 
 
-![微信截图_20220905180929](C:\Users\waili\Desktop\usual\微信截图\mybatis-plus\微信截图_20220905180929.png)
+![微信截图_20220905180929](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220905180929.png)
 
 
 
 ### 8、其他
 
-![微信截图_20220905180954](C:\Users\waili\Desktop\usual\微信截图\mybatis-plus\微信截图_20220905180954.png)
+![微信截图_20220905180954](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220905180954.png)
 
 
 
@@ -140,46 +140,46 @@ lt  小于   gt 大于   le小于等于  ge大于等于  eq等于
 
 ### 1、字段
 
-![微信截图_20220906145218](C:\Users\waili\Desktop\usual\微信截图\mybatis-plus\微信截图_20220906145218.png)
+![微信截图_20220906145218](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220906145218.png)
 
 
 
 ### 2、表名
 
-![微信截图_20220906145236](C:\Users\waili\Desktop\usual\微信截图\mybatis-plus\微信截图_20220906145236.png)
+![微信截图_20220906145236](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220906145236.png)
 
 
 
 ### 3、id
 
-![微信截图_20220906150155](C:\Users\waili\Desktop\usual\微信截图\mybatis-plus\微信截图_20220906150155.png)
+![微信截图_20220906150155](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220906150155.png)
 
-![微信截图_20220906151108](C:\Users\waili\Desktop\usual\微信截图\mybatis-plus\微信截图_20220906151108.png)
+![微信截图_20220906151108](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220906151108.png)
 
 
 
 ### 4、全局配置
 
-![微信截图_20220906151525](C:\Users\waili\Desktop\usual\微信截图\mybatis-plus\微信截图_20220906151525.png)
+![微信截图_20220906151525](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220906151525.png)
 
 
 
 ### 5、删除
 
-![微信截图_20220906151915](C:\Users\waili\Desktop\usual\微信截图\mybatis-plus\微信截图_20220906151915.png)
+![微信截图_20220906151915](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220906151915.png)
 
 
 
-![微信截图_20220906154849](C:\Users\waili\Desktop\usual\微信截图\mybatis-plus\微信截图_20220906154849.png)
+![微信截图_20220906154849](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220906154849.png)
 
 
 
 ## 10、锁
 
-![微信截图_20220906160610](C:\Users\waili\Desktop\usual\微信截图\mybatis-plus\微信截图_20220906160610.png)
+![微信截图_20220906160610](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220906160610.png)
 
-![微信截图_20220906160622](C:\Users\waili\Desktop\usual\微信截图\mybatis-plus\微信截图_20220906160622.png)
+![微信截图_20220906160622](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220906160622.png)
 
 
 
-![微信截图_20220906160655](C:\Users\waili\Desktop\usual\微信截图\mybatis-plus\微信截图_20220906160655.png)
+![微信截图_20220906160655](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220906160655.png)
