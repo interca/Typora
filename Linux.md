@@ -4,25 +4,25 @@
 
 ### 1、介绍
 
-![微信截图_20220913203428](C:\Users\waili\Desktop\usual\微信截图\linux\微信截图_20220913203428.png)
+![微信截图_20220913203428](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220913203428.png)
 
 
 
 ### 2、学习
 
-![微信截图_20220913211624](C:\Users\waili\Desktop\usual\微信截图\linux\微信截图_20220913211624.png)
+![微信截图_20220913211624](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220913211624.png)
 
 
 
 ### 3、版本
 
-![微信截图_20220913214409](C:\Users\waili\Desktop\usual\微信截图\linux\微信截图_20220913214409.png)
+![微信截图_20220913214409](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220913214409.png)
 
 
 
 ### 4、对比其他操作系统
 
-![微信截图_20220913214604](C:\Users\waili\Desktop\usual\微信截图\linux\微信截图_20220913214604.png)
+![微信截图_20220913214604](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220913214604.png)
 
 
 
@@ -34,7 +34,7 @@
 
 ### 1、概述
 
-<img src="C:\Users\waili\Desktop\usual\微信截图\linux\微信截图_20220919230456.png" alt="微信截图_20220919230456" style="zoom:67%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220919230456.png" alt="微信截图_20220919230456" style="zoom:67%;" />
 
 
 
@@ -42,7 +42,7 @@
 
 在linux里对文件进行操作
 
-![微信截图_20220920021034](C:\Users\waili\Desktop\usual\微信截图\linux\微信截图_20220920021034.png)
+![微信截图_20220920021034](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220920021034.png)
 
 
 
@@ -50,15 +50,15 @@
 
 按i是编辑
 
-![微信截图_20220920161308](C:\Users\waili\Desktop\usual\微信截图\linux\微信截图_20220920161308.png)
+![微信截图_20220920161308](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220920161308.png)
 
 
 
 ### 3、指令(重要)
 
-![微信截图_20220920162515](C:\Users\waili\Desktop\usual\微信截图\linux\微信截图_20220920162515.png)
+![微信截图_20220920162515](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220920162515.png)
 
-![微信截图_20220920164504](C:\Users\waili\Desktop\usual\微信截图\linux\微信截图_20220920164504.png)
+![微信截图_20220920164504](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220920164504.png)
 
 
 
@@ -130,7 +130,7 @@ dd 删除当前行
 
 编辑模式(插入模式)
 
-![微信截图_20220921235630](C:\Users\waili\Desktop\usual\微信截图\linux\微信截图_20220921235630.png)
+![微信截图_20220921235630](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220921235630.png)
 
 
 
@@ -138,5 +138,5 @@ dd 删除当前行
 
 操作指令
 
-![微信截图_20220922000248](C:\Users\waili\Desktop\usual\微信截图\linux\微信截图_20220922000248.png)
+![微信截图_20220922000248](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220922000248.png)
 
