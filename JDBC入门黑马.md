@@ -1,37 +1,39 @@
 # JDBC入门黑马
 
 ## 1、介绍
-![输入图片说明](.idea/image.png)
+![输入图片说明](https://gitee.com/hongshenghyj/typoramsg/raw/master/img/image.png)
 
-<img src="C:\Users\waili\Desktop\usual\微信截图\JDBC黑马\微信截图_20220714132101.png" alt="微信截图_20220714132101" style="zoom:67%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220714132101.png" alt="微信截图_20220714132101" style="zoom:67%;" />
 
 
 
 ## 2、步骤
 
-<img src="C:\Users\waili\Desktop\usual\微信截图\JDBC黑马\微信截图_20220714132239.png" alt="微信截图_20220714132239" style="zoom:67%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220714132239.png" alt="微信截图_20220714132239" style="zoom:67%;" />
 
 
 
-![微信截图_20220714132659](C:\Users\waili\Desktop\usual\微信截图\JDBC黑马\微信截图_20220714132659.png)
+![image-20221012121949079](https://gitee.com/hongshenghyj/typora/raw/master/img/image-20221012121949079.png)
+
+
 
 
 
 ## 3、驱动介绍
 
-<img src="C:\Users\waili\Desktop\usual\微信截图\JDBC黑马\微信截图_20220714153715.png" alt="微信截图_20220714153715" style="zoom:67%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220714153715.png" alt="微信截图_20220714153715" style="zoom:67%;" />
 
-<img src="C:\Users\waili\Desktop\usual\微信截图\JDBC黑马\微信截图_20220714153804.png" alt="微信截图_20220714153804" style="zoom: 67%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220714153804.png" alt="微信截图_20220714153804" style="zoom: 67%;" />
 
-<img src="C:\Users\waili\Desktop\usual\微信截图\JDBC黑马\微信截图_20220714153825.png" alt="微信截图_20220714153825" style="zoom:67%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220714153825.png" alt="微信截图_20220714153825" style="zoom:67%;" />
 
 
 
 ## 4、链接
 
-<img src="C:\Users\waili\Desktop\usual\微信截图\JDBC黑马\微信截图_20220714155036.png" alt="微信截图_20220714155036" style="zoom:67%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220714155036.png" alt="微信截图_20220714155036" style="zoom:67%;" />
 
-<img src="C:\Users\waili\Desktop\usual\微信截图\JDBC黑马\微信截图_20220714155117.png" alt="微信截图_20220714155117" style="zoom:67%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220714155117.png" alt="微信截图_20220714155117" style="zoom:67%;" />
 
 回滚事物
 
@@ -41,15 +43,15 @@
 
 ## 5、执行和获取对象
 
-<img src="C:\Users\waili\Desktop\usual\微信截图\JDBC黑马\微信截图_20220714232824.png" alt="微信截图_20220714232824" style="zoom:67%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220714232824.png" alt="微信截图_20220714232824" style="zoom:67%;" />
 
-<img src="C:\Users\waili\Desktop\usual\微信截图\JDBC黑马\微信截图_20220714234016.png" alt="微信截图_20220714234016" style="zoom:67%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220714234016.png" alt="微信截图_20220714234016" style="zoom:67%;" />
 
 
 
 获取对象介绍
 
-![微信截图_20220714234610](C:\Users\waili\Desktop\usual\微信截图\JDBC黑马\微信截图_20220714234610.png)
+![微信截图_20220714234610](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220714234610.png)
 
 <img src="C:\Users\waili\Desktop\usual\微信截图\JDBC黑马\微信截图_20220714234821.png" alt="微信截图_20220714234821" style="zoom:67%;" />
 
