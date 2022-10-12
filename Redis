@@ -10,23 +10,23 @@
 
 键值对数据库
 
-![微信截图_20220913193748](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220913193748.png)
+![微信截图_20220913193748](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220913193748.png)
 
 
 
 ### 2、nosql
 
-![微信截图_20220913194425](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220913194425.png)
+![微信截图_20220913194425](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220913194425.png)
 
 
 
-![微信截图_20220913194811](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220913194811.png)
+![微信截图_20220913194811](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220913194811.png)
 
 
 
 
 
-![微信截图_20220913195111](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220913195111.png)
+![微信截图_20220913195111](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220913195111.png)
 
 
 
@@ -34,7 +34,7 @@
 
 ### 3、认识Redis
 
-![微信截图_20220913200537](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220913200537.png)
+![微信截图_20220913200537](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220913200537.png)
 
 
 
@@ -44,21 +44,21 @@
 
 安装到linux上
 
-![微信截图_20220920035944](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220920035944.png)
+![微信截图_20220920035944](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220920035944.png)
 
 
 
-![微信截图_20220920041942](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220920041942.png)
+![微信截图_20220920041942](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220920041942.png)
 
 
 
 ### 2、启动命令
 
-![微信截图_20220920042304](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220920042304.png)
+![微信截图_20220920042304](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220920042304.png)
 
 
 
-![微信截图_20220920171923](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220920171923.png)
+![微信截图_20220920171923](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220920171923.png)
 
 
 
@@ -66,15 +66,15 @@
 
 ### 3、相关配置
 
-![微信截图_20220920172720](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220920172720.png)
+![微信截图_20220920172720](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220920172720.png)
 
 
 
-![微信截图_20220920172831](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220920172831.png)
+![微信截图_20220920172831](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220920172831.png)
 
 
 
-![微信截图_20220920173154](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220920173154.png)
+![微信截图_20220920173154](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220920173154.png)
 
 
 
@@ -82,13 +82,13 @@
 
 先进入cd /
 
-![微信截图_20220922005045](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922005045.png)
+![微信截图_20220922005045](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220922005045.png)
 
 
 
 停止
 
-![微信截图_20220922004910](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922004910.png)
+![微信截图_20220922004910](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220922004910.png)
 
 
 
@@ -96,7 +96,7 @@
 
 ps -ef | grep redis  查看状态
 
-![微信截图_20220922014152](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922014152.png)
+![微信截图_20220922014152](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220922014152.png)
 
 
 
@@ -104,11 +104,11 @@ ps -ef | grep redis  查看状态
 
 ### 5、开机启动
 
-![微信截图_20220920174442](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220920174442.png)
+![微信截图_20220920174442](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220920174442.png)
 
-![微信截图_20220922005630](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922005630.png)
+![微信截图_20220922005630](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220922005630.png)
 
-![微信截图_20220922014428](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922014428.png)
+![微信截图_20220922014428](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220922014428.png)
 
 
 
@@ -116,11 +116,11 @@ ps -ef | grep redis  查看状态
 
 ### 1、默认值
 
-![微信截图_20220922044240](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922044240.png)
+![微信截图_20220922044240](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220922044240.png)
 
 
 
-![微信截图_20220922044421](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922044421.png)
+![微信截图_20220922044421](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220922044421.png)
 
 
 
@@ -128,7 +128,7 @@ ps -ef | grep redis  查看状态
 
 ### 2、启动客户端
 
-![微信截图_20220922054155](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922054155.png)
+![微信截图_20220922054155](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220922054155.png)
 
 
 
@@ -136,33 +136,33 @@ ps -ef | grep redis  查看状态
 
 ### 1、总览
 
-![微信截图_20220922064751](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922064751.png)
+![微信截图_20220922064751](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220922064751.png)
 
 
 
-![微信截图_20220922065439](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922065439.png)
+![微信截图_20220922065439](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220922065439.png)
 
-![微信截图_20220922065451](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922065451.png)
+![微信截图_20220922065451](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220922065451.png)
 
 
 
 ### 2、通用命令
 
-![微信截图_20220922071408](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922071408.png)
+![微信截图_20220922071408](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220922071408.png)
 
 
 
 ### 3、目录结构
 
-![微信截图_20220922110142](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922110142.png)
+![微信截图_20220922110142](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220922110142.png)
 
 
 
 ### 4、字符串
 
-![微信截图_20220922071558](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922071558.png)
+![微信截图_20220922071558](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220922071558.png)
 
-![微信截图_20220922071710](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922071710.png)
+![微信截图_20220922071710](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220922071710.png)
 
 
 
@@ -170,37 +170,37 @@ ps -ef | grep redis  查看状态
 
 ### 5、哈希
 
-![微信截图_20220922111123](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922111123.png)
+![微信截图_20220922111123](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220922111123.png)
 
 
 
-![微信截图_20220922111149](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922111149.png)
+![微信截图_20220922111149](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220922111149.png)
 
 
 
 ### 6、list
 
-![微信截图_20220922112437](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922112437.png)
+![微信截图_20220922112437](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220922112437.png)
 
-![微信截图_20220922112617](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922112617.png)
+![微信截图_20220922112617](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220922112617.png)
 
 
 
 ### 7、set
 
-![微信截图_20220922115746](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922115746.png)
+![微信截图_20220922115746](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220922115746.png)
 
-![微信截图_20220922120056](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922120056.png)
+![微信截图_20220922120056](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220922120056.png)
 
 
 
 ### 8、sortedset
 
-![微信截图_20220922120849](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922120849.png)
+![微信截图_20220922120849](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220922120849.png)
 
 
 
-![微信截图_20220922120903](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922120903.png)
+![微信截图_20220922120903](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220922120903.png)
 
 
 
@@ -210,17 +210,17 @@ ps -ef | grep redis  查看状态
 
 ### 1、简介
 
-![微信截图_20220922194733](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922194733.png)**
+![微信截图_20220922194733](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220922194733.png)**
 
 
 
 ### 2、jedis
 
-![微信截图_20220922195532](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922195532.png)
+![微信截图_20220922195532](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220922195532.png)
 
-![微信截图_20220922200305](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922200305.png)
+![微信截图_20220922200305](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220922200305.png)
 
-![微信截图_20220922205206](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922205206.png)
+![微信截图_20220922205206](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220922205206.png)
 
 
 
@@ -228,13 +228,13 @@ ps -ef | grep redis  查看状态
 
 jedis链接
 
-![微信截图_20220922205550](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220922205550.png)
+![微信截图_20220922205550](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220922205550.png)
 
 
 
 ### **3、stringdataredis(重点)**
 
-![微信截图_20220923085044](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220923085044.png)
+![微信截图_20220923085044](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220923085044.png)
 
 
 
@@ -242,25 +242,25 @@ jedis链接
 
 #### 1、常用方法
 
-![微信截图_20220923085944](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220923085944.png)
+![微信截图_20220923085944](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220923085944.png)
 
 
 
 #### 2、依赖
 
-![微信截图_20220923090222](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220923090222.png)
+![微信截图_20220923090222](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220923090222.png)
 
 
 
 #### 3、配置文件
 
-![微信截图_20220923091055](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220923091055.png)
+![微信截图_20220923091055](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220923091055.png)
 
 
 
 #### 4、测试
 
-![微信截图_20220923091124](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220923091124.png)
+![微信截图_20220923091124](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220923091124.png)
 
 
 
@@ -268,13 +268,13 @@ jedis链接
 
 名字会出现乱码
 
-![微信截图_20220923092930](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220923092930.png)
+![微信截图_20220923092930](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220923092930.png)
 
 
 
-![微信截图_20220924130759](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220924130759.png)
+![微信截图_20220924130759](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220924130759.png)
 
-![微信截图_20220924132504](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220924132504.png)
+![微信截图_20220924132504](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220924132504.png)
 
 
 
@@ -282,11 +282,11 @@ jedis链接
 
 
 
-![微信截图_20220924132733](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220924132733.png)
+![微信截图_20220924132733](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220924132733.png)
 
 
 
-![微信截图_20220924132802](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220924132802.png)
+![微信截图_20220924132802](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220924132802.png)
 
 
 
@@ -298,13 +298,13 @@ jedis链接
 
 
 
-![微信截图_20220924134140](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220924134140.png)
+![微信截图_20220924134140](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220924134140.png)
 
 
 
 配置文件
 
-![微信截图_20220924205819](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220924205819.png)
+![微信截图_20220924205819](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220924205819.png)
 
 
 
@@ -312,25 +312,25 @@ jedis链接
 
 集合对象存入redis
 
-![微信截图_20221003210421](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20221003210421.png)
+![微信截图_20221003210421](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221003210421.png)
 
 
 
 普通对象存入redis
 
-![微信截图_20221003210447](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20221003210447.png)
+![微信截图_20221003210447](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221003210447.png)
 
 
 
 哈希存储
 
-![微信截图_20220927215940](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220927215940.png)
+![微信截图_20220927215940](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220927215940.png)
 
-![微信截图_20220927223548](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220927223548.png)
+![微信截图_20220927223548](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220927223548.png)
 
 #### 9、设置时长
 
-![微信截图_20221003211144](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20221003211144.png)
+![微信截图_20221003211144](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221003211144.png)
 
 
 
@@ -340,21 +340,21 @@ jedis链接
 
 ### 1、session共享
 
-![微信截图_20220927021902](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220927021902.png)
+![微信截图_20220927021902](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220927021902.png)
 
 
 
-![微信截图_20220927202140](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220927202140.png)
+![微信截图_20220927202140](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220927202140.png)
 
 
 
 ### 2、redis保存数据
 
-![微信截图_20220927202549](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220927202549.png)
+![微信截图_20220927202549](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220927202549.png)
 
 
 
-![微信截图_20220927203155](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220927203155.png)
+![微信截图_20220927203155](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220927203155.png)
 
 
 
@@ -362,13 +362,13 @@ jedis链接
 
 生成验证码保存到redis
 
-![微信截图_20220927215921](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220927215921.png)
+![微信截图_20220927215921](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220927215921.png)
 
 
 
 然后检验
 
-![微信截图_20220927215940](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220927215940.png)
+<img src="C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20220927215940.png" alt="微信截图_20220927215940" style="zoom:67%;" />
 
 
 
@@ -376,7 +376,7 @@ jedis链接
 
 ### 1、概念
 
-![微信截图_20221001022338](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20221001022338.png)
+![微信截图_20221001022338](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221001022338.png)
 
 
 
@@ -386,11 +386,11 @@ jedis链接
 
 
 
-![微信截图_20221001022549](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20221001022549.png)
+![微信截图_20221001022549](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221001022549.png)
 
 
 
-![微信截图_20221003031500](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20221003031500.png)
+![微信截图_20221003031500](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221003031500.png)
 
 
 
@@ -402,23 +402,23 @@ jedis链接
 
 
 
-![微信截图_20221003211347](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20221003211347.png)
+![微信截图_20221003211347](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221003211347.png)
 
-![微信截图_20221003211808](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20221003211808.png)
+![微信截图_20221003211808](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221003211808.png)
 
-![微信截图_20221003212115](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20221003212115.png)
-
-
-
-![微信截图_20221003212720](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20221003212720.png)
+![微信截图_20221003212115](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221003212115.png)
 
 
 
-![微信截图_20221003212813](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20221003212813.png)
+![微信截图_20221003212720](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221003212720.png)
 
 
 
-![微信截图_20221003213705](C:\Users\waili\Desktop\usual\微信截图\redis\微信截图_20221003213705.png)
+![微信截图_20221003212813](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221003212813.png)
+
+
+
+![微信截图_20221003213705](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221003213705.png)
 
 
 
