@@ -43,39 +43,39 @@
 
 ## 二、stl基础
 
-![微信截图_20220825162003](C:\Users\waili\Desktop\usual\微信截图\cpp\微信截图_20220825162003.png)
+![微信截图_20220825162003](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220825162003.png)
 
 
 
 ### 1、基本构成
 
-![微信截图_20220825162753](C:\Users\waili\Desktop\usual\微信截图\cpp\微信截图_20220825162753.png)
+![微信截图_20220825162753](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220825162753.png)
 
-![微信截图_20220825163309](C:\Users\waili\Desktop\usual\微信截图\cpp\微信截图_20220825163309.png)
+![微信截图_20220825163309](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220825163309.png)
 
 
 
 ### 2、for循环
 
-![微信截图_20220825164835](C:\Users\waili\Desktop\usual\微信截图\cpp\微信截图_20220825164835.png)
+![微信截图_20220825164835](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220825164835.png)
 
 
 
 ### 3、基本容器
 
-![微信截图_20220825165313](C:\Users\waili\Desktop\usual\微信截图\cpp\微信截图_20220825165313.png)
+![微信截图_20220825165313](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220825165313.png)
 
-![微信截图_20220825165650](C:\Users\waili\Desktop\usual\微信截图\cpp\微信截图_20220825165650.png)
+![微信截图_20220825165650](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220825165650.png)
 
-![微信截图_20220825165925](C:\Users\waili\Desktop\usual\微信截图\cpp\微信截图_20220825165925.png)
+![微信截图_20220825165925](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220825165925.png)
 
-![微信截图_20220825173019](C:\Users\waili\Desktop\usual\微信截图\cpp\微信截图_20220825173019.png)
+![微信截图_20220825173019](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220825173019.png)
 
-![微信截图_20220825174628](C:\Users\waili\Desktop\usual\微信截图\cpp\微信截图_20220825174628.png)
+![微信截图_20220825174628](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220825174628.png)
 
-![微信截图_20220825174657](C:\Users\waili\Desktop\usual\微信截图\cpp\微信截图_20220825174657.png)
+![微信截图_20220825174657](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220825174657.png)
 
-![微信截图_20220825174810](C:\Users\waili\Desktop\usual\微信截图\cpp\微信截图_20220825174810.png)
+![微信截图_20220825174810](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220825174810.png)
 
 
 
@@ -101,7 +101,7 @@ m.count(x)  如果为0就是不存在
 
 3、排序
 
-![](C:\Users\waili\Desktop\usual\微信截图\错题力扣\微信截图_20220919002108.png)
+![](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220919002108.png)
 
 
 
@@ -272,7 +272,7 @@ begin()     end()
 
 v.erase(v.begin()+1,v.begin()+2)  左闭右开
 
-![](C:\Users\waili\Desktop\usual\微信截图\错题力扣\微信截图_20220919224727.png)
+![](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220919224727.png)
 
 
 
@@ -328,13 +328,13 @@ sort(nums1.rbegin(),nums1.rend());
 
 简介代码自定义比较器
 
-![](C:\Users\waili\Desktop\usual\微信截图\错题力扣\微信截图_20220919002841.png)
+![](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220919002841.png)
 
 
 
 Java的
 
-![](C:\Users\waili\Desktop\usual\微信截图\错题力扣\微信截图_20220919003241.png)
+![](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220919003241.png)
 
 
 
