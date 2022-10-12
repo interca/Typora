@@ -20,9 +20,9 @@ aop
 
 ### 1、简介
 
-<img src="C:\Users\waili\Desktop\usual\微信截图\ssm入门\微信截图_20220720033750.png" alt="微信截图_20220720033750" style="zoom:50%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220720033750.png" alt="微信截图_20220720033750" style="zoom:50%;" />
 
-<img src="C:\Users\waili\Desktop\usual\微信截图\ssm入门\微信截图_20220720035104.png" alt="微信截图_20220720035104" style="zoom:50%;" />
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220720035104.png" alt="微信截图_20220720035104" style="zoom:50%;" />
 
 <img src="C:\Users\waili\Desktop\usual\微信截图\ssm入门\微信截图_20220720035544.png" alt="微信截图_20220720035544" style="zoom: 50%;" />
 
