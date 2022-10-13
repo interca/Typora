@@ -2,6 +2,10 @@
 
 ## 一、基本指令和简介
 
+## 注意
+
+使用命令行推送要到那个文件夹下打开git
+
 ### 1、简介
 
 <img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220721034037.png" alt="微信截图_20220721034037" style="zoom:67%;" />

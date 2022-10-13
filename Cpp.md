@@ -183,7 +183,11 @@ s.erase(a,b)从a开始 删除b个元素
 
 比如set s=&map[index]
 
+int &a = f(i)
 
+可以取出值 并且可以改变a来改变f(i)
+
+c++  vectorPush一个vector是值Push
 
 
 
