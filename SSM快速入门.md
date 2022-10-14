@@ -6,7 +6,7 @@
 
 数据库如果是8.0以上。链接时候要加jc
 
-
+启动tmcat时候  创建maven工程 选webapp  然后配置tmocat  最后启动
 
 ## 补内容
 
