@@ -169,12 +169,19 @@ stoi(string）
 
 
 
-### 删除
+#### 删除
 
 s.erase(a,b)从a开始 删除b个元素
 
 
 
+#### 截取
+
+substr(size_type _Off = 0,size_type _Count = npos)
+一种构造string的方法
+形式 ： s.substr(pos, len)
+返回值： string，包含s中从pos开始的len个字符的拷贝（pos的默认值是0，len的默认值是s.size() - pos，即不加参数会默认拷贝整个s）
+异常 ：若pos的值超过了string的大小，则substr函数会抛出一个out_of_range异常；若pos+n的值超过了string的大小，则substr会调整n的值，只拷贝到string的末尾
 
 
 ### 5、注意事项

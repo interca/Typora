@@ -2885,6 +2885,12 @@ return false可以阻止冒泡
 
 然后在web.xml下配置路径
 
+这个才是对的
+
+```
+public class test implements javax.servlet.Servlet {
+```
+
 ![微信截图_20220710160239](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220710160239.png)
 
 常见错误
