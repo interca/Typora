@@ -173,3 +173,216 @@ ctrl + shift +v是复制
 ctrl + c是停止连接
 
 ifconfig查询网络
+
+
+
+### 2、网络连接模式
+
+![微信截图_20221015192029](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221015192029.png)
+
+
+
+
+
+
+
+### 3、更改网络配置
+
+![](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221103004100.png)
+
+![微信截图_20221015202837](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221015202837.png)
+
+![微信截图_20221015203624](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221015203624.png)
+
+
+
+
+
+
+
+### 4、问题
+
+![微信截图_20221015204548](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221015204548.png)
+
+
+
+### 5、将别的ip改名字到本地
+
+![微信截图_20221015211013](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221015211013.png)
+
+![微信截图_20221015211022](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221015211022.png)
+
+![微信截图_20221026125403](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221026125403.png)
+
+连接虚拟机
+
+
+
+### 6、远程登录
+
+![微信截图_20221026125511](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221026125511.png)
+
+## 
+
+
+
+## 四、服务和进程
+
+### 1、服务管理（6）
+
+![微信截图_20221026204929](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221026204929.png)
+
+
+
+
+
+### **2、服务管理(7)**
+
+![微信截图_20221026205833](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221026205833.png)
+
+
+
+
+
+### 3、运行级别
+
+![微信截图_20221026211701](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221026211701.png)
+
+
+
+![微信截图_20221026214926](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221026214926.png)
+
+
+
+### 4、关闭防火墙
+
+![微信截图_20221029155444](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221029155444.png)
+
+
+
+### 5、系统命令
+
+![微信截图_20221029155718](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221029155718.png)
+
+
+
+
+
+![微信截图_20221029160742](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221029160742.png)
+
+
+
+
+
+![微信截图_20221029160837](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221029160837.png)
+
+
+
+
+
+### 6、帮助命令
+
+![微信截图_20221029161613](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221029161613.png)
+
+
+
+
+
+![微信截图_20221029162454](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221029162454.png)
+
+
+
+
+
+### 7、内置命令
+
+![微信截图_20221029162550](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221029162550.png)
+
+
+
+
+
+
+
+## 五、常用命令
+
+
+
+### 1、快捷键
+
+![微信截图_20221029163338](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221029163338.png)
+
+
+
+
+
+### 2、文件
+
+ll也可以列出
+
+![微信截图_20221101013851](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221101013851.png)
+
+
+
+### 3、cd
+
+![微信截图_20221101014920](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221101014920.png)
+
+
+
+
+
+文件形式
+
+![微信截图_20221101020214](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221101020214.png)
+
+
+
+### 4、ls
+
+![微信截图_20221101021034](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221101021034.png)
+
+
+
+
+
+### 5、文件夹操作
+
+![微信截图_20221101021914](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221101021914.png)
+
+
+
+
+
+![微信截图_20221101021924](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221101021924.png)
+
+
+
+![微信截图_20221101233359](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221101233359.png)
+
+
+
+
+
+![微信截图_20221101235648](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221101235648.png)
+
+
+
+
+
+![微信截图_20221102004344](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221102004344.png)
+
+
+
+
+
+### 6、查看内容
+
+![微信截图_20221102005657](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221102005657.png)
+
+
+
+![微信截图_20221102010606](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221102010606.png)
+
+
+

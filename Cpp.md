@@ -157,7 +157,9 @@ to_string(num);
 
 stoi(string）
 
+stoll(string)
 
+此函数将在函数调用中作为参数提供的字符串转换为long long int。它解析str并将其内容解释为指定基数的整数，并将其作为long long int类型的值返回。
 
 #### 排序
 
