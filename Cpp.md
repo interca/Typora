@@ -265,7 +265,7 @@ using namespace std;
 
 插入某个位置
 
-insert(v.begin()+数字，插入数字)
+v.insert(v.begin()+数字，插入数字)
 
 插入前面后面
 
