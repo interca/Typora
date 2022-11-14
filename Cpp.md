@@ -147,9 +147,7 @@ sacnf("%s",a+1);
 
 (s + s).find(goal) != string::npos;  包含
 
-或者  s.find(w)==0  是包括
-
-
+或者  s.find(w)== 0  是包括查找w在s中的位置
 
 #### 字符串和整数转换
 
@@ -186,6 +184,14 @@ substr(size_type _Off = 0,size_type _Count = npos)
 异常 ：若pos的值超过了string的大小，则substr函数会抛出一个out_of_range异常；若pos+n的值超过了string的大小，则substr会调整n的值，只拷贝到string的末尾
 
 
+
+### 插入
+
+s.insert(a,s2)  在s的a位置前插入s2字符串
+
+
+
+
 ### 5、注意事项
 
 从一个容器取出另一个容器，最好用&
@@ -200,9 +206,39 @@ c++  vectorPush一个vector是值Push
 
 
 
-### 6、堆
+### **6、堆**
 
  //定义小顶堆  priority_queue<int,vector<int>,greater<int>>heap;
+
+结构体：
+
+大顶堆
+
+```cpp
+#include<iostream>
+#include<cstring>
+#include<algorithm>
+#include<vector>
+#include<cmath>
+#include<map>
+#include<queue>
+using namespace std;
+typedef struct Edge
+{
+    int a,b,w;
+     bool operator< (const  Edge &W)const
+    {
+        return w > W.w;
+    }
+}e;
+int main(){
+  priority_queue<e,vector<e>>heap;
+  
+  return 0;
+}
+```
+
+
 
 
 
@@ -342,6 +378,24 @@ sort(nums1.rbegin(),nums1.rend());
 简介代码自定义比较器
 
 ![](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220919002841.png)
+
+
+
+
+
+结构体排序
+
+```cpp
+struct Edge
+{
+    int a,b,w;
+
+     bool operator< (const Edge &W)const
+    {
+        return w < W.w;
+    }
+}edges[N];
+```
 
 
 

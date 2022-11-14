@@ -4,6 +4,8 @@
 
 使用图形化界面记得关闭虚拟机的防火墙
 
+redisson原理不太懂
+
 ## 一、简介
 
 ### 1、特点
@@ -451,6 +453,10 @@ jedis链接
 
 
 ### 6、缓存击穿
+
+
+
+
 
 ![微信截图_20221011120618](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221011120618.png)
 
