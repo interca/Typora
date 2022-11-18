@@ -470,6 +470,18 @@ Autowired相当于注入属性
 
 #### 5.1加载文件
 
+多个用数组就行了
+
+```Java
+@Configuration
+@ComponentScan({"com.it.domain","com.it.mapper","com.it.service","com.it.controller"})//扫描的地方
+@PropertySources({@PropertySource("classpath:jdbc.properties")})//加载外部文件
+@Import({jdbcConfig.class,mybatisConfig.class})//导入其他配置
+public class springConfig {
+
+}
+```
+
 ![微信截图_20220827012033](C:\Users\waili\Desktop\usual\微信截图\spring\微信截图_20220827012033.png)
 
 #### 5.2导入其他配置类
@@ -1359,6 +1371,16 @@ Autowired相当于注入属性
 ### 注意
 
 spring类加载路径的时候不要加controller层
+
+```Java
+@Configuration
+@ComponentScan({"com.it.domain","com.it.mapper","com.it.service","com.it.controller"})//扫描的地方
+@PropertySources({@PropertySource("classpath:jdbc.properties")})//加载外部文件
+@Import({jdbcConfig.class,mybatisConfig.class})//导入其他配置
+public class springConfig {
+
+}
+```
 
 ### 1、坐标
 

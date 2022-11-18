@@ -10,6 +10,20 @@
 
 然后这个对象也会赋值id
 
+
+
+xml文件：
+
+```java
+<select id="robTicket" parameterType="Map" resultType="int">
+    select  count(*)  from gq_user_info where now()>(
+    select grab_tickets_start  from gq_lecture_info where  id=#{lectureId})
+    and (select grab_tickets_end  from gq_lecture_info where  id=#{lectureId})>now()
+    and ticket_state=0
+    and  gq_user_info.openid=#{openid};
+</select>
+```
+
 ## 1、配置
 
 ![微信截图_20220905082229](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220905082229.png)
