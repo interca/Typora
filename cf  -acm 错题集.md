@@ -69,8 +69,290 @@ int main(){
 
 问一个字符串多少子串符合要求  字符由 0 到1构成
 
+思路：
+
+暴力就行  总共十个字符  那么如果符号要求  那么极端情况就是每个字符出现十次 最多100次  所以暴力解就行了  
+
+
+
+
+
+
+
+### 2、温度计  div834
+
+![](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221120005822.png)
+
+
+
+
+
+```cpp
+#include<iostream>
+#include<cstring>
+#include<algorithm>
+#include<vector>
+#include<cmath>
+#include<map>
+#include<queue>
+using namespace std;
+int main(){
+   int n;
+   cin>>n;
+   while(n --){
+      int l,r,x,a,b;
+      cin>>l>>r>>x>>a>>b;
+      if(a == b)cout<<0<<endl;
+      else if(abs(a - b) >=x)cout<<1<<endl;
+      else {
+         if(b - l >= x && r - b >= x){
+             cout<<2<<endl;
+         }
+         else if(b - l >= x){
+            if(a - l >= x)cout<<2<<endl;
+            else if(r - a >= x)cout<<3<<endl;
+            else cout<<-1<<endl;
+         }
+         else if(r - b >= x){
+            if(r - a >= x)cout<<2<<endl;
+            else if(a - l >= x)cout<<3<<endl;
+            else cout<<-1<<endl;
+         }
+         else cout<<-1<<endl;
+      }
+   }
+   return 0;
+}
+```
+
+
+
+
+
+### 3、反转逆序对  (835)
+
+
+
+![](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221122044354.png)
+
+```cpp
+#include<iostream>
+#include<cstring>
+#include<algorithm>
+#include<vector>
+#include<cmath>
+#include<map>
+#include<queue>
+using namespace std;
+int lowbit(int x){
+    return x & -x;
+};
+
+//求和
+long long  count(int x,vector<int>tre){
+    long long  sum = 0;
+    for(int i = x; i ; i = i -lowbit(i)){
+        sum += tre[i];
+    }
+    return sum;
+};
+
+//改变某个数
+void add(int x,int k,vector<int>&tre){
+    for(int i = x ; i <= 2 ; i = i + lowbit(i)){
+        tre[i] +=k;
+    }
+    
+};
+int main(){
+   int n;
+   cin>>n;
+   vector<long long >num;
+   while(n --){
+      int m;
+      cin>>m;
+      vector<int>tre(3,0);
+      vector<int>v(m + 1,0);
+      long long sum = 0;
+      vector<int>sumz(m + 1,0);
+      vector<int>sumo(m + 1,0);  
+      for(int i = 1; i  <= m ; i ++){
+         cin>>v[i];
+         if(v[i] == 0){
+            sum += count(2,tre) - count(1,tre);
+         }
+         add(v[i] + 1,1,tre);
+         sumz[i] = sumz[i - 1];
+         sumo[i] = sumo[i - 1];
+         if(v[i] == 0){
+            sumz[i] ++;
+         }else {
+            sumo[i] ++;
+         }
+      }
+      long long mx = sum;
+      for(int i = 1 ; i <= m ;i ++){
+          long long a;
+         if(v[i] == 0){
+             a = sum  - sumo[i] + sumz[m] - sumz[i] ;
+         }else {
+            a = sum - (sumz[m] - sumz[i]) + sumo[i - 1];
+         }
+         mx = max(a,mx);
+      }
+      num.push_back(mx);
+   }
+   for(int i = 0 ;i < num.size() ; i ++){
+      cout<<num[i]<<endl;
+   }
+   return 0;
+}
+```
+
+
+
+
+
+## 三、动态规划
+
+### 1、妖塔(华东交通牛客月赛)
+
 
 
 思路：
 
-暴力就行  总共十个字符  那么如果符号要求  那么极端情况就是每个字符出现十次 最多100次  所以暴力解就行了  
+假设当前需要从第 层开始挑战，考虑战力至少为多少时，才能恰好不受阻碍（指不需要中途修炼）的挑战成 功。假设该临界战力是 ，那么挑战者的战力如果大于等于 ，那么直接一路平推过去即可。如果战力小于 ，我 们不妨在挑战之前，先把战力修炼到 ，然后在出发挑战。否则，我们一定会在挑战某一层的时候需要修炼。而 我们只是将所有的中途修炼改为了提前修炼。 我们定义 表示从第 层开始挑战，战力至少为多少，才能不受阻碍的挑战成功。显然我们需要提前预处理出来 这个 数组。其可以使用递推的方式进行求解。递推方程为 。 时间复杂度 。
+
+
+
+![](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221119041835.png)
+
+
+
+```cpp
+#include<iostream>
+#include<cstring>
+#include<algorithm>
+#include<vector>
+#include<cmath>
+#include<map>
+#include<queue>
+using namespace std;
+int main(){
+   int n,m;
+   cin>>n>>m;
+   vector<int>v(n+1);
+   for(int i = 1; i <= n  ; i ++){
+      cin>>v[i];
+   }
+   long long  f[n + 1];
+   f[n] = v[n] + 1;
+   for(int i = n -1 ; i >= 1; i --){
+      f[i] = max((long long )v[i] + 1,f[i + 1] - 1);
+   }
+   while(m --){
+      int a,b;
+      cin>>a>>b;
+      if(a >= f[b]){
+         cout<<n-b + 1<<endl;
+      }
+      else {
+         cout<<(n - b + f[b] - a + 1)<<endl;
+      }
+   }
+   return 0;
+}
+```
+
+
+
+
+
+## 四、图论
+
+### 1、火车(来自华东交通小白月赛)
+
+思路：
+
+floyed算法：
+
+先进行一次floyed
+
+然后每次更新边的时候都进行一次更新
+
+
+
+
+
+![](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221119042327.png)
+
+
+
+
+
+![](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221119042216.png)
+
+
+
+
+
+
+
+
+
+```cpp
+#include<iostream>
+#include<cstring>
+#include<algorithm>
+#include<vector>
+#include<cmath>
+#include<map>
+#include<queue>
+ long long  a[300][300];
+using namespace std;
+int n;
+void floyed(){
+      for(int k = 1 ; k<=n ; k ++){
+      for(int i = 1; i <= n ; i ++){
+         for(int j = 1 ; j <= n ; j ++){
+            if(a[i][j] > a[i][k] + a[k][j])
+            a[i][j]  = a[i][k] + a[k][j];
+         }
+      }
+   }
+}
+int main(){
+   int m,q;
+   cin>>n>>m>>q;
+   memset(a,0x3f,sizeof a );
+    for(int i = 1 ; i<= n ; i ++)a[i][i] = 0;
+   for(int i = 0; i < m ; i ++){
+      int  c,d;
+      long long f;
+      scanf("%d %d %lld",&c,&d,&f);
+      a[c][d] = a[d][c] = min(a[c][d],f);
+   }
+    floyed();
+      int opt;
+   while(q --){
+      cin>>opt;
+      int k1,k2;
+      cin>>k1>>k2;
+      if(opt == 1){
+          cout<<a[k1][k2]<<endl;
+      }else {
+            long long k;
+            cin>>k;
+            a[k1][k2] = a[k2][k1] = min(k,a[k1][k2]);
+            for(int i = 1 ;  i<= n ;i ++){
+                for(int j = 1 ;j <= n ; j ++){
+                  a[i][j] = min(a[i][j],
+                                  min(a[i][k1] + a[k1][k2] + a[k2][j],a[i][k2] +a[k2][k1] + a[k1][j]));
+                }
+            }
+      }
+   }
+   return 0;
+}
+```
+
