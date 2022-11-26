@@ -2,12 +2,12 @@
 
 #### 介绍
 
-内容包括框架和技术
+学习的技术
 数据结构和算法
-算法错题
 
 
 
 
 ####
-![链接] (www.baidu.com)
+## github  
+![] (https://github.com/interca?tab=repositories)
