@@ -1,12 +1,8 @@
-# 算法和学习笔记
+# 简介
 
-#### 介绍
+## 主要内容
 
 学习的技术
 数据结构和算法
 
-
-
-
-####
-[github](https://github.com/interca?tab=repositories)
+## [github](https://github.com/interca?tab=repositories)
