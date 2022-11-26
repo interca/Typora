@@ -130,6 +130,8 @@ spring是基于maven的，所以maven要有一定了解，包括坐标什么的�
 
 #### 4.3实例化(重要)
 
+
+
 ![微信截图_20220721143445](C:\Users\waili\Desktop\usual\微信截图\ssm入门\微信截图_20220721143445.png)
 
 ![微信截图_20220825224958](C:\Users\waili\Desktop\usual\微信截图\spring\微信截图_20220825224958.png)
@@ -194,6 +196,8 @@ public static void main(String[] args) {
 
 #### 总结
 
+如果容器多个一样类型的bean  那么自动注入的时候字段名字要和id一样 否则无法装配
+
 ![微信截图_20220826233615](C:\Users\waili\Desktop\usual\微信截图\spring\微信截图_20220826233615.png)
 
 
@@ -207,6 +211,8 @@ public static void main(String[] args) {
 
 
 set方法用的比较多
+
+这里的id如果是唯一的  自动注入的变量不用和id一致
 
 ![](C:\Users\waili\Desktop\usual\微信截图\spring\微信截图_20220825221422.png)
 
@@ -268,7 +274,7 @@ name要和set方法一样，首字母小写
 
 
 
-#### 4、自动装配
+#### **4、自动装配**
 
 ![微信截图_20220826010940](C:\Users\waili\Desktop\usual\微信截图\spring\微信截图_20220826010940.png)
 
@@ -1065,6 +1071,36 @@ public class springConfig {
 
 
 ## **七、Mybatis**
+
+### 直接写sql
+
+
+
+
+
+![](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221124215023.png)
+
+
+
+### 返回值为map
+
+![](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221124225707.png)
+
+
+
+### 注意事项
+
+```
+1 .#将传入的数据都当成一个字符串，会对自动传入的数据加一个双引号。
+2. $将传入的数据直接显示生成在sql中。
+3. #方式能够很大程度防止sql注入。　
+4.$方式无法防止Sql注入。
+5.$方式一般用于传入数据库对象，例如传入表名.　
+6.一般能用#的就别用$.
+
+```
+
+
 
 ### 1、原始jdbc
 

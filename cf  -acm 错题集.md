@@ -213,6 +213,69 @@ int main(){
 
 
 
+### 4、异或和
+
+
+
+思路：
+
+当n为奇数 直接全部是1
+
+当n为偶数：
+
+我们可以 用 1^3 = 2 = 1+3 /2来构造
+
+如果n/2  是奇数  那么就把  分成 n/2组 1 3
+
+如果有奇数组 1 3 那么最后消去  只剩下 1^3   =  sum/n
+
+如果偶数组  那么久要拆出 一组 1 ，3   变成 2 2  使得sum不变
+
+比如  8  ：  1 3 1 3 1 3 2 2  ->   2 == 2
+
+构造出以下式子
+
+![](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221126012453.png)
+
+```cpp
+#include<iostream>
+#include<cstring>
+#include<algorithm>
+#include<vector>
+#include<cmath>
+#include<map>
+#include<queue>
+using namespace std;
+
+int main(){
+   int n;
+   cin>>n;
+   while(n --){
+     int m;
+     cin>>m;
+     if(m % 2){
+        for(int i = 0 ;i < m ; i ++)
+        cout<<1<<" ";
+        cout<<endl;
+     }else {
+         if(m /2% 2 == 1){
+           for(int i = 0 ;i  < m ;i = i + 2)
+             cout<<1<<" "<<3<<" ";
+         }else {
+            for(int i = 0 ;i < m /2 - 1 ; i ++){
+               cout<<1<<" "<<3<<" ";
+            }
+            cout<<2<<" "<<2<<" ";
+         }
+         cout<<endl;
+     }
+   }
+   return 0;
+}
+```
+
+
+
 ## 三、动态规划
 
 ### 1、妖塔(华东交通牛客月赛)

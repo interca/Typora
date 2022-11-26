@@ -12,6 +12,8 @@ dto   和前端传过来数据对应
 
 vo  返回给前端的数据
 
+记得要忽略,idea和target的文件
+
 
 
 
@@ -676,7 +678,7 @@ pom中配置(不推荐)
 
 ### **11、第三方bean**
 
-
+这里的别的地方使用这个bean名字要是dataSource才能对应上
 
 ![微信截图_20220905051926](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220905051926.png)
 
