@@ -1,12 +1,12 @@
 # Java方法
 
-## 一、序列化
+## 序列化
 
 ![](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221107225338.png)
 
 
 
-## 二、类型转换
+## 类型转换
 
 可以将公共属性赋值给另一个对象
 
@@ -14,13 +14,38 @@
 
 
 
+忽略
+
+这一段是数据库查出的数据要加其他的数据一起封装新的 分页数据
+
+```java
+//对象拷贝  忽略records
+BeanUtils.copyProperties(pageInfo,pageInfo2,"records");
+```
+
+```java
+//对象拷贝  忽略records
+BeanUtils.copyProperties(pageInfo,pageInfo2,"records");
+
+List<Dish> records = pageInfo.getRecords();
+List<DishDto> list = new ArrayList<>();
+for(Dish d:records){
+    Long id = d.getCategoryId();
+    //根据id查询分类对象
+    Category category = categoryMapper.selectById(id);
+    String name1 = category.getName();
+    DishDto dishDto=new DishDto();
+    dishDto.setCategoryName(name1);
+    //对象拷贝
+    BeanUtils.copyProperties(d,dishDto);
+    list.add(dishDto);
+}
+pageInfo2.setRecords(list);
+```
 
 
 
-
-
-
-## 三、解析excel
+## 解析excel
 
 
 

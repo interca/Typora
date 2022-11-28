@@ -2686,6 +2686,10 @@ soa架构：
 
 
 
+## 安装
+
+![](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221127233209.png)
+
 ## 1、概念  
 
 
