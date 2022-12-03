@@ -14,7 +14,9 @@ vo  返回给前端的数据
 
 记得要忽略,idea和target的文件
 
+maven记得配置仓库
 
+还有就是jdk要用1.8  c盘fire下面的  所有jdk保持一致
 
 
 

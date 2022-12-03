@@ -102,3 +102,66 @@ public class ParseExcel {
 
 }
 ```
+
+
+
+
+
+## Lua脚本
+
+可以保证操作的原子性
+
+```lua
+--参数列表
+-- 优惠券Id
+local voucherId = ARGV[1]
+
+-- 用户id
+local userId = ARGV[2]
+
+-- 库存 和订单key
+local stockKey = 'seckill:stock:'..voucherId
+
+local orderKey = 'seckill:order:'..voucherId
+
+
+--业务
+--判断库存是否充足
+if(tonumber(redis.call('get',stockKey)) <= 0)then
+    -- 库存不足
+    return 1
+end
+-- 判断用户是否下单
+if(redis.call('sismember',orderKey,userId) == 1)then
+    return 2
+end
+
+-- 扣库存
+-- 保存用户
+redis.call('incrby',stockKey,-1)
+redis.call('sadd',orderKey,userId)
+return 0
+```
+
+
+
+```java
+/**
+ * 加载lua脚本代码
+ * @param voucherId
+ * @return
+ */
+private  static final DefaultRedisScript<Long>SECKILL_SCRIPT;
+static {
+    SECKILL_SCRIPT = new DefaultRedisScript<>();
+    SECKILL_SCRIPT.setLocation(new ClassPathResource("seckill.lua"));
+    SECKILL_SCRIPT.setResultType(Long.class);
+}
+```
+
+这里是redis的用法
+
+```java
+Long execute = stringRedisTemplate.execute(
+        SECKILL_SCRIPT, Collections.emptyList(), voucherId.toString(), userId.toString());
+```
