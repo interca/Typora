@@ -18,7 +18,7 @@ maven记得配置仓库
 
 还有就是jdk要用1.8  c盘fire下面的  所有jdk保持一致
 
-
+模块那里模块sdk也要保持一致
 
 ## 技巧
 
@@ -29,6 +29,30 @@ BeanUtils
 ![](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221009031156.png)
 
 
+
+
+
+## 部署
+
+1、打包
+
+2、放到opt下面
+
+3、然后执行命令
+
+![](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221207200815.png)
+
+查看进程以及杀死(重新部署的时候)
+
+![微信截图_20221207200858](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221207200858.png)
+
+
+
+![微信截图_20221207200919](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221207200919.png)
+
+
+
+**如果服务器是腾讯云  除了在控制台开放端口  还有在防火墙里面开放**
 
 ## 一、简介
 
