@@ -197,3 +197,43 @@ lt  小于   gt 大于   le小于等于  ge大于等于  eq等于
 
 
 ![微信截图_20220906160655](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220906160655.png)
+
+
+
+
+
+
+
+## 11、serivce继承类
+
+
+
+<img src="C:\Users\waili\Desktop\usual\微信截图\mybatis-plus\微信截图_20221216142852.png" alt="微信截图_20221216142852" style="zoom:150%;" />
+
+
+
+
+
+![微信截图_20221216142936](C:\Users\waili\Desktop\usual\微信截图\mybatis-plus\微信截图_20221216142936.png)
+
+
+
+
+
+
+
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221216142957.png" alt="微信截图_20221216142957" style="zoom:150%;" />
+
+
+
+
+
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221216142949.png" alt="微信截图_20221216142949" style="zoom:150%;" />
+
+
+
+
+
+还可以直接写sql
+
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221216143412.png" alt="微信截图_20221216143412" style="zoom:200%;" />

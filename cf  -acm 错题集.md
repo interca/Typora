@@ -276,6 +276,170 @@ int main(){
 
 
 
+
+
+### 5、构造
+
+构造一个字符串
+
+有两个选择：
+
+1、随便选择一个字母放到末尾
+
+2、选择已经选择字符串的子字符串加入末尾
+
+问能否在字符串长度步骤内构造出来
+
+
+
+思路：
+
+只有找有两段一样的字符串就行了
+
+```cpp
+#include<iostream>
+#include<algorithm>
+#include<cstring>
+#include<vector>
+using namespace std;
+#include<map>
+int main(){
+	int n;
+	cin>>n;
+	vector<string>v;
+	while(n --){
+		int t;
+		cin>>t;
+		string s;
+		cin>>s;
+		map<string,int>m;
+		int flag = 0;
+		for(int i = 0 ; i < t - 1 ; i ++){
+		 string str = s.substr(i,2);
+		   if(s[i] == s[i + 1]){
+			   if(m[str] >=2 || (i > 0 && s[i - 1] != s[i] && m[str] >= 1)){
+				   flag = 1;
+				   break;
+			   }
+		   }else {
+              if(m[str] >= 1){
+				   flag = 1;
+				   break;
+			   }
+		   }
+		   m[str] ++;
+		}
+		if(flag == 1)v.push_back("YES");
+		else v.push_back("NO");
+	}
+
+	for(int i = 0 ; i < v.size() ; i ++){
+		cout<<v[i]<<endl;
+	}
+	return 0;
+}
+```
+
+
+
+
+
+### 6、区间数（837）
+
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221213023506.png" style="zoom: 80%;" />
+
+```cpp
+#include<iostream>
+#include<algorithm>
+#include<cstring>
+#include<vector>
+using namespace std;
+#include<map>
+void solve(){
+	int n,m;
+	cin>>n>>m;
+	vector<long long >f(n + 1,n);
+	while(m --){
+		long long  x,y;
+		cin>>x>>y;
+		if(x >y)swap(x,y);
+		f[x] = min(f[x], y - 1);
+	}
+	for(int i = n -1 ; i >= 1 ; i --){
+		f[i] = min(f[i + 1],f[i]);
+	}
+	long long  sum = 0;
+	for(int i = 1 ; i <= n ; i ++){
+		sum += f[i] - i +1;
+	}
+	cout<<sum<<endl;
+}
+int main(){
+	int n;
+	cin>>n;
+	while(n --){
+	  solve();	
+	}
+	return 0;
+}
+```
+
+
+
+
+
+### 7、好数组
+
+把一个数组变成  每一个大的数都是小数的倍数   最多n次
+
+思路:全部变成2的倍数
+
+
+
+
+
+
+
+### 8、花环
+
+出自小白月赛
+
+![](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221216212628.png)
+
+```cpp
+#include<iostream>
+#include<algorithm>
+#include<cstring>
+#include<vector>
+using namespace std;
+#include<map>
+#include<queue>
+#include<cmath>
+
+int main(){
+	int n,k;
+	cin>>n>>k;
+	vector<long long >v(k + 1,0);
+	for(int i = 1; i <= k ; i ++){
+		cin>>v[i];
+	}
+	if(k == 1)cout<<"Ginger666";
+	else {
+		sort(v.begin() + 1,v.end());
+		long long sum = 0;
+        if(n % 3 ==0)sum = n/3*(2*v[1] + v[2]);
+        else if(n %3 == 1)sum = n/3*(2*v[1] + v[2])+v[2];
+         else if(n %3 == 2)sum = n/3*(2*v[1] + v[2])+v[1] + v[2];
+		cout<<sum<<endl;
+	}
+	return 0;
+}
+```
+
+
+
+
+
 ## 三、动态规划
 
 ### 1、妖塔(华东交通牛客月赛)
