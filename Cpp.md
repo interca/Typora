@@ -440,7 +440,21 @@ e.erase(it2,it3);    //删除it2到it3之间的元素
 
 
 
-reverse(a.begin(),a.end)  反转函数
+**reverse(a.begin(),a.end)  反转函数**
+
+
+
+
+
+
+
+
+
+  **next_permutation(v.begin(),v.end());**
+
+全排列函数
+
+
 
 
 
