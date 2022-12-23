@@ -1,5 +1,9 @@
 # Linux
 
+## 部署
+
+![微信截图_20221207200815](C:\Users\waili\Desktop\usual\微信截图\linux\微信截图_20221207200815.png)
+
 ## 一、简介
 
 ### 1、介绍
@@ -385,4 +389,268 @@ ll也可以列出
 ![微信截图_20221102010606](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221102010606.png)
 
 
+
+
+
+  
+
+![微信截图_20221102011837](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221102011837.png)
+
+  
+
+![微信截图_20221102200237](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221102200237.png)
+
+### 7、写入  
+
+
+
+![微信截图_20221102195138](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221102195138.png)
+
+  
+
+
+
+![微信截图_20221102195605](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221102195605.png)
+
+
+
+### 8、软连接  
+
+![微信截图_20221102201905](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221102201905.png)
+
+  
+
+
+
+### 9、查看历史  
+
+![微信截图_20221103111739](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221103111739.png)
+
+​    
+
+  
+
+
+
+### 10、时间日期  
+
+
+
+![微信截图_20221103112135](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221103112135.png)
+
+  
+
+  
+
+![微信截图_20221103112337](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221103112337.png)
+
+  
+
+![微信截图_20221103113145](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221103113145.png)
+
+  
+
+
+
+![微信截图_20221103113431](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221103113431.png)
+
+  
+
+![微信截图_20221103113450](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221103113450.png)
+
+​    
+
+  
+
+
+
+## 六、用户管理  
+
+
+
+### 1、添加用户
+
+![微信截图_20221103114105](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221103114105.png)
+
+
+
+su切换
+
+![微信截图_20221103115330](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221103115330.png)
+
+  
+
+### 2、设置权限  
+
+
+
+![微信截图_20221107193830](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221107193830.png)
+
+
+
+
+
+### 3、用户组管理命令  
+
+
+
+![微信截图_20221107200554](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221107200554.png)
+
+  
+
+查看用户组
+
+<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221107201837.png" alt="微信截图_20221107201837" style="zoom:200%;" />
+
+  
+
+![微信截图_20221109012941](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221109012941.png)
+
+  
+
+
+
+## 七、文件权限
+
+
+
+### 1、文件属性  
+
+
+
+![微信截图_20221109013054](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221109013054.png)
+
+
+
+  
+
+![微信截图_20221109013533](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221109013533.png)
+
+  
+
+![微信截图_20221109013654](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221109013654.png)
+
+  
+
+  
+
+### 2、权限设置  
+
+
+
+
+
+![微信截图_20221112201227](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112201227.png)
+
+
+
+![微信截图_20221112201725](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112201725.png)
+
+  
+
+![微信截图_20221112202506](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112202506.png)
+
+
+
+![微信截图_20221112202757](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112202757.png)
+
+  
+
+
+
+ 
+
+![微信截图_20221112202816](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112202816.png)
+
+  
+
+
+
+## 八、搜索  
+
+### 1、find
+
+![微信截图_20221115012903](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221115012903.png)
+
+  
+
+
+
+### 2、locate
+
+![微信截图_20221115014747](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221115014747.png)
+
+ 
+
+
+
+### 3、grep  
+
+
+
+
+
+![微信截图_20221115015119](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221115015119.png)
+
+  
+
+
+
+
+
+## 九、压缩和解压  
+
+
+
+### 1、gzip类  
+
+
+
+![微信截图_20221222014020](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221222014020.png)
+
+
+
+
+
+### 2、zip  
+
+
+
+![微信截图_20221222014244](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221222014244.png)
+
+ 
+
+
+
+### **3、tar(重要)**
+
+![微信截图_20221222014606](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221222014606.png)
+
+  
+
+
+
+![微信截图_20221222015342](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221222015342.png)
+
+
+
+
+
+经常用的解压
+
+![微信截图_20221222015418](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221222015418.png)
+
+
+
+  
+
+
+
+## 十、磁盘
+
+
+
+![微信截图_20221222015807](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221222015807.png)
+
+![微信截图_20221222021443](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221222021443.png)
 
