@@ -1404,7 +1404,7 @@ public class springConfig {
 
 ## 九、MVC注解版
 
-### 注意
+### 配置类
 
 spring类加载路径的时候不要加controller层
 
@@ -1417,6 +1417,19 @@ public class springConfig {
 
 }
 ```
+
+
+
+```java
+@Configuration
+@ComponentScan("com.it.controller")//扫描bean
+@EnableWebMvc
+public class springmvcConfig {
+
+}
+```
+
+这里的jdbcconfig可以加  configuration也可以在spring配置类中直接导入
 
 ### 1、坐标
 
