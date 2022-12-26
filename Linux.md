@@ -4,6 +4,12 @@
 
 ![微信截图_20221207200815](C:\Users\waili\Desktop\usual\微信截图\linux\微信截图_20221207200815.png)
 
+## 命令大全
+
+[Linux命令大全(手册) – 真正好用的Linux命令在线查询网站 (linuxcool.com)](https://www.linuxcool.com/)
+
+
+
 ## 一、简介
 
 ### 1、介绍
