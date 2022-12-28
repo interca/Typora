@@ -1046,7 +1046,7 @@ jedis链接
 
 点赞先后  
 
-
+sortedSet有key  加value  比set多一个标识score  可以排序
 
 ![微信截图_20221215103634](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221215103634.png)
 
