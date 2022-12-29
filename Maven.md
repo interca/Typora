@@ -1,5 +1,9 @@
 # Maven
 
+## 配置
+
+[(61条消息) maven镜像仓库的配置_flytalei的博客-CSDN博客_在项目中配置仓库镜像](https://blog.csdn.net/flytalei/article/details/123684754)
+
 ## 1、简介
 
 <img src="https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220717173253.png" alt="微信截图_20220717173253" style="zoom:50%;" />
