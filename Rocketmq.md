@@ -1,10 +1,29 @@
 # Rocketmq
 
+## 文档
 
+[为什么选择RocketMQ | RocketMQ (apache.org)](https://rocketmq.apache.org/zh/docs/)
 
+## 注意
 
+### 访问不到控制台
 
-Topic是一个逻辑上的概念，实际上Message是在每个Broker上以Queue的形式记录。
+修改配置文件加上开放三个端口
+
+vi conf/broker.conf
+设置linux的ip
+
+namesrvAddr = xxxx:9876 
+brokerIP1=xxxx
+使用命令开放端口10909，10911，9876端口
+
+firewall-cmd --zone=public --add-port=10909/tcp --permanent
+firewall-cmd --zone=public --add-port=1091/tcp --permanent
+firewall-cmd --zone=public --add-port=9876/tcp --permanent
+systemctl restart firewalld.service
+firewall-cmd --reload
+
+**Topic是一个逻辑上的概念，实际上Message是在每个Broker上以Queue的形式记录。**
 
 ## 一、结构
 

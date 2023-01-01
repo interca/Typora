@@ -4,7 +4,7 @@
 
 [CentOS 7 安装 RabbitMQ - 腾讯云开发者社区-腾讯云 (tencent.com)](https://cloud.tencent.com/developer/article/1958099)
 
-
+## 注意
 
 控制台访问地址是http  没有https
 
