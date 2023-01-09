@@ -1,4 +1,8 @@
-# Java方法
+# 技巧
+
+
+
+
 
 ## 序列化
 
@@ -165,3 +169,11 @@ static {
 Long execute = stringRedisTemplate.execute(
         SECKILL_SCRIPT, Collections.emptyList(), voucherId.toString(), userId.toString());
 ```
+
+
+
+
+
+## jdk
+
+[配置JDK环境变量详细步骤「建议收藏」 - 腾讯云开发者社区-腾讯云 (tencent.com)](https://cloud.tencent.com/developer/article/2104069)
