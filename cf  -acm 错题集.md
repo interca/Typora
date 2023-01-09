@@ -440,6 +440,66 @@ int main(){
 
 
 
+### 9、quick_sort  842(div2)  
+
+给一个数组和一个k
+
+每一次可以从数组取出k个数然后排序后加到末尾
+
+问多少次可以把整个数组变有序
+
+
+
+我们可以计算满足相对位置为1到n  有多少个数
+
+剩下的就是要重新排的
+
+对k做整除
+
+```cpp
+#include<iostream>
+#include<algorithm>
+#include<cstring>
+#include<vector>
+using namespace std;
+#include<map>
+#include<queue>
+#include<cmath>
+
+void solve(){
+  long long n;
+  long long k;
+  cin>>n>>k;
+  long long index = 0;
+  long long c = 0;
+  for(int i = 0 ; i < n ; i ++){
+     long long x;
+     cin>>x;
+     if(index + 1 == x){
+       index = x;
+       c ++;
+     }
+  }
+  long long count = n - c;
+  if(count % k == 0)cout<<count/k<<endl;
+  else cout<<(count/k+1)<<endl;
+}
+
+int main(){
+	int n;
+	cin>>n;
+	while(n --)
+	solve();
+	return 0;
+}
+```
+
+
+
+
+
+
+
 ## 三、动态规划
 
 ### 1、妖塔(华东交通牛客月赛)
