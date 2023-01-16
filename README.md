@@ -51,6 +51,7 @@
 
 
 ## 算法
+> 常见的算法还有在codeforces遇到的题目
 - [codeforces题目](https://github.com/interca/Typora/blob/master/codeforces%E9%A2%98%E7%9B%AE.md)
 - [Cpp-STL](https://github.com/interca/Typora/blob/master/Cpp.md)
 - [数据结构](https://gitee.com/hongshenghyj/typora/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.md)
