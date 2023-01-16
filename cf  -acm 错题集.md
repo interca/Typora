@@ -61,6 +61,55 @@ int main(){
 
 
 
+
+
+### 2、看电影
+
+题目
+
+又n个人，每个人又一个数字a[i],一个人又以下情况会伤心，设又sum个人去看电影
+
++ 自己去看电影，但是总的人数sum 小于a[i]
++ 自己不去，看的人数大于等于a[i]
+
+问带人去看电影又几种解法
+
+> 思路
+>
+> 可以从大到小排序，然后记录当前去了多少个人，统计如果当前人数减去自己大于等于自己并且
+> a[i - 1]要 大于当前人数，那么计数加一
+
+```cpp
+
+void solve(){
+   int n;
+   cin>>n;
+   vector<long long>v(n);
+   for(int i = 0 ; i < n ; i ++){
+     scanf("%lld",&v[i]);
+   }
+   sort(v.rbegin(),v.rend());
+   int sum = n;
+   int c = 0;
+   for(int i  = 0 ; i < n ; i ++){
+       if(i > 0){
+          if(v[i] <= sum - 1 && v[i - 1] > sum)c++;
+       }else {
+         if(v[i] <= sum - 1){
+          c ++;
+         }
+       }
+       sum --;
+   }
+   if(v[n - 1] > 0)c++;
+   cout<<c<<endl;
+} 
+```
+
+
+
+
+
 ## 二、思维题
 
 ### 1、暴力思维来自div833
