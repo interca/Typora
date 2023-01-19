@@ -1174,7 +1174,9 @@ index(m)位置 = 40 + 500w * 4 + (m - 1) * 20 (式子3)
 
 #### 具体查询流程如下：
 
-<img src="https://gitee.com/hongshenghyj/typora/raw/master/img/QQ%E6%88%AA%E5%9B%BE20220208140740.png" alt="输入图片说明" title="QQ截图20201229183512.png" style="zoom:200%;" />
+![](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230119015829.png)
+
+
 
 ## 四、消息的消费
 
