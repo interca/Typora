@@ -793,3 +793,40 @@ int main(){
 }
 ```
 
+
+
+
+
+
+
+## 五、二分
+
+### 1、找出最后一个小于等于当前数的下标
+
+```cpp
+void solove(){
+  int n;
+  cin>>n;
+  vector<int>v(n,0);
+  for(int i = 0 ; i  < n ; i ++){
+    cin>>v[i];
+  }
+  sort(v.begin(),v.end());
+  int q;
+  cin>>q;
+  for(int i = 0  ; i < q ; i ++){
+      int a;
+      cin>>a;
+      int l = 0;
+      int r = n - 1;
+      int flag = 0;
+      while(l <= r){
+         int mid = l + r >> 1;
+         if(v[mid] > a)r = mid - 1;
+         else l = mid + 1,flag = mid + 1;
+      }
+      cout<<flag<<endl;
+  }
+}
+```
+
