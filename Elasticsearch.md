@@ -1519,3 +1519,226 @@ static List<String> parse(Aggregations aggregations,String str){
 
 
 
+
+
+
+
+## 五、自动补全
+
+### 拼音分词
+
+![微信截图_20230120224425](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230120224425.png)
+
+
+
+### 自定义分词
+
+![微信截图_20230120231142](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230120231142.png)
+
+
+
+创建索引库配置分词器
+
+![微信截图_20230120231421](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230120231421.png)
+
+
+
+
+
+### 使用注意
+
+![微信截图_20230120232618](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230120232618.png)
+
+
+
+搜索时候用ik_smart分词器
+
+![微信截图_20230120232702](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230120232702.png)
+
+
+
+
+
+![微信截图_20230120232835](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230120232835.png)
+
+
+
+
+
+### completion suggester查询
+
+![微信截图_20230120234003](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230120234003.png)
+
+
+
+
+
+![微信截图_20230120234116](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230120234116.png)
+
+
+
+
+
+
+
+![微信截图_20230127080333](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230127080333.png)
+
+
+
+
+
+
+
+### 项目实现自动补全
+
+![微信截图_20230127081542](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230127081542.png)
+
+
+
+![微信截图_20230127083752](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230127083752.png)
+
+
+
+![微信截图_20230127083902](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230127083902.png)
+
+
+
+>创建索引库
+
+```json
+PUT /hotel
+{
+  "settings": {
+    "analysis": {
+      "analyzer": {
+        "text_anlyzer": {
+          "tokenizer": "ik_max_word",
+          "filter": "py"
+        },
+        "completion_analyzer": {
+          "tokenizer": "keyword",
+          "filter": "py"
+        }
+      },
+      "filter": {
+        "py": {
+          "type": "pinyin",
+          "keep_full_pinyin": false,
+          "keep_joined_full_pinyin": true,
+          "keep_original": true,
+          "limit_first_letter_length": 16,
+          "remove_duplicated_term": true,
+          "none_chinese_pinyin_tokenize": false
+        }
+      }
+    }
+  },
+  "mappings": {
+    "properties": {
+      "id":{
+        "type": "keyword"
+      },
+      "name":{
+        "type": "text",
+        "analyzer": "text_anlyzer",
+        "search_analyzer": "ik_smart",
+        "copy_to": "all"
+      },
+      "address":{
+        "type": "keyword",
+        "index": false
+      },
+      "price":{
+        "type": "integer"
+      },
+      "score":{
+        "type": "integer"
+      },
+      "brand":{
+        "type": "keyword",
+        "copy_to": "all"
+      },
+      "city":{
+        "type": "keyword"
+      },
+      "starName":{
+        "type": "keyword"
+      },
+      "business":{
+        "type": "keyword",
+        "copy_to": "all"
+      },
+      "location":{
+        "type": "geo_point"
+      },
+      "pic":{
+        "type": "keyword",
+        "index": false
+      },
+      "all":{
+        "type": "text",
+        "analyzer": "text_anlyzer",
+        "search_analyzer": "ik_smart"
+      },
+      "suggestion":{
+          "type": "completion",
+          "analyzer": "completion_analyzer"
+      }
+    }
+  }
+}
+
+```
+
+
+
+
+
+![微信截图_20230127091330](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230127091330.png)
+
+
+
+
+
+![微信截图_20230127092440](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230127092440.png)
+
+
+
+
+
+```java
+/**
+ * 自动补全
+ * @param prefix
+ * @return
+ */
+@Override
+public List<String> getSuggestions(String prefix) {
+    List<String> list  = new ArrayList<>();
+    try {
+        //准备request
+        SearchRequest request = new SearchRequest("hotel");
+        //准备dsl
+        request.source().suggest(new SuggestBuilder().addSuggestion(
+                "suggestions",
+                SuggestBuilders.completionSuggestion("suggestion")
+                        .prefix(prefix)
+                        .skipDuplicates(true)
+                        .size(10)
+        ));
+        SearchResponse response = client.search(request, RequestOptions.DEFAULT);
+        Suggest suggest = response.getSuggest();
+        CompletionSuggestion suggestions = suggest.getSuggestion("suggestions");
+        List<CompletionSuggestion.Entry.Option> options = suggestions.getOptions();
+        for (CompletionSuggestion.Entry.Option option : options) {
+            list.add(option.getText().toString());
+        }
+    } catch (IOException e) {
+        throw new RuntimeException(e);
+    }
+    return list;
+}
+```
+
+
+
