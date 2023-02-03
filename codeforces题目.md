@@ -648,6 +648,61 @@ void solove(){
 
 
 
+### 11、相邻反转
+
+题目
+给一个数组，可以操作任意次：
+把a[i] 变成- a[i ]  把 a[i + 1] 变成 - a[i + 1] 
+ 问最终可以得到数组最大和是多少
+
+>我们可以想象把符号左右移动
+>
+>+ 当符数个数为偶数，那么全部取绝对值
+>+ 为奇数，那么把绝对值最小的数变成负数，其他全部取绝对值
+>
+>注意点：当n == 1时候要特判
+
+```cpp
+  int n;
+   cin>>n;
+   vector<long long>v(n + 1);
+   long long sum = 0;
+   int count = 0;
+   long long mx = 100000000000000;
+   int index = 1;
+   
+   for(int i = 1 ;i <= n; i  ++){
+       cin>>v[i];
+       if(v[i] <= 0){
+           count ++;
+       };
+       if(abs(v[i]) < mx){
+          mx = abs(v[i]);
+          index = i;
+       }
+   }
+   if(n == 1){
+       int a = abs(v[1]);
+       cout<<a<<endl;
+       return;
+   }
+   
+   if(count % 2 == 0){
+       for(int i = 1 ; i<= n ; i ++){
+           sum += abs(v[i]);
+       }
+       cout<<sum<<endl;
+   }else {
+       for(int i =1 ; i <= n ; i ++){
+           if(i == index)sum -= abs(v[i]);
+           else sum += abs(v[i]);
+       }
+       cout<<sum<<endl;
+   }
+```
+
+
+
 
 
 ## 三、动态规划
