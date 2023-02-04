@@ -601,3 +601,28 @@ public class CommentService {
 >这里findBy是固定的，条件的名称根据具体情况来
 
 ![微信截图_20230123182747](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230123182747.png)
+
+
+
+
+
+
+
+
+
+```
+#!/bin/sh
+docker run \
+-p 3306:3306 \
+--name mysql \
+--privileged=true \
+--restart unless-stopped \
+-v /mnt/sda1/mysql8.0.20/mysql:/etc/mysql \
+-v /mnt/sda1/mysql8.0.20/logs:/logs \
+-v /mnt/sda1/mysql8.0.20/data:/var/lib/mysql \
+-v ~/mysql_slave/mysql-files:/var/lib/mysql-files \
+-v /etc/localtime:/etc/localtime \
+-e MYSQL_ROOT_PASSWORD=hyjzzyfldgutyyds \
+-d mysql:8.0.20
+```
+
