@@ -703,6 +703,130 @@ void solove(){
 
 
 
+### 12、(x + y == n)
+
+如果 x + y == n 并且x各位数字之和 与y的各位数字之和的差的绝对值小于等于1，写出一组x y
+否则否则输出-1
+
+>思路：可以从前往后枚举每一位，如果是偶数，平分给两个字符串，否则分别分给两个字符串
+>注意首数字不能为0
+
+```cpp
+string n;
+  cin>>n;
+  string s1 = "";
+  string s2 ="";
+  int flag  = 0;
+  for(int i =0 ; i < n.size() ; i ++){
+      int s = n[i] - '0';
+      int a = s/2;
+      if(s % 2 == 0){
+         if(!(s1.size() == 0 && a == 0))
+         s1 += (char)(a + '0');
+         if(!(s2.size() == 0 && a == 0))
+         s2 += (char)( a + '0');
+      }else {
+          if(flag % 2 == 1){
+               s1 += (char)(a + '0' + 1);
+               if(!(s2.size() == 0 && a == 0))
+               s2 += (char)( a + '0');
+          }else {
+                s2 += (char)(a + '0' + 1);
+                if(!(s1.size() == 0 && a == 0))
+                s1 += (char)(a + '0');
+          }
+          flag ++;
+      }
+  }
+  if(s1.size() == 0)s1 = "0";
+  if(s2.size() == 0)s2 = "0";
+  cout<<s1<<" "<<s2<<endl;
+```
+
+
+
+
+
+### 13、2n组合数
+
+给一个n  然后你要给出n对，没对两个数，他们再[1，2*n]  范围
+并且  后一对的和比前一对和数量多一，求是否可以构造整个序列(可以不按顺序)，如果是输出，否则输出no
+比如n == 3
+有  2 4   1  6  35
+
+>不管n是偶数还是奇数，2*n肯定是偶数，1 加到2n  就是(1 + 2n)*2n/2   =   n + 2n * n
+>因为第二项开始，比1前一项多以，所以多出来的有 1 加到 n - 1 =  n(n - 1)/2
+
+```cpp
+ int n;
+   cin>>n;
+   if(n % 2 == 0)cout<<"NO"<<endl;
+   else {
+       cout<<"YES"<<endl;
+       int x = 1;
+       int y = 2*n - 1;
+       while(y > n){
+           cout<<x<<" "<<y<<endl;
+           x ++;
+           y -= 2;
+       }
+       y = 2 * n;
+       while(y > n){
+           cout<<x<<" "<<y<<endl;
+           x++;
+           y -= 2;
+       }
+   }
+```
+
+
+
+
+
+### 14、障碍(小白月赛)
+
+>暴力就行，x范围是1到n的平方
+
+![](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230210211839.png)
+
+```cpp
+#include <iostream>
+#include <cstring>
+#include <algorithm>
+#include<vector>
+#include<cmath>
+using namespace std;
+
+void solve(){  
+   int n,m;
+   cin>>n>>m;
+   vector<int>v(m +2);
+   for(int i = 1 ; i<= m ; i ++){
+       cin>>v[i];
+   }
+    v[0] = 0;
+    v[m + 1] = n;
+   int mx = 0;
+   int l = 0;
+   int index = 0;
+   for(int i = 0 ; i * i <=  n ; i ++){
+       l = v[0];
+       for(int j = 0; j  <= m + 1 && j + i + 1 <= m + 1 ; j ++){
+          l = max(l,v[j + i + 1] - v[j]);
+       }
+       mx = max(mx,l - i * i);
+   }
+   cout<<mx<<endl;
+}
+
+int main(){
+  int n;
+  solve();
+}
+```
+
+
+
 
 
 ## 三、动态规划
@@ -755,6 +879,10 @@ int main(){
    return 0;
 }
 ```
+
+
+
+
 
 
 
