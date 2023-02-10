@@ -28,7 +28,9 @@
 
 **Topic是一个逻辑上的概念，实际上Message是在每个Broker上以Queue的形式记录。
 
+### 启动事项
 
+![](https://gitee.com/hongshenghyj/typora/raw/master/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230208135301.png)
 
 
 
@@ -361,8 +363,8 @@ tail -f ~/logs/rocketmqlogs/namesrv.log
 
 ![输入图片说明](https://gitee.com/hongshenghyj/typora/raw/master/img/QQ%E6%88%AA%E5%9B%BE20220208111000.png "QQ截图20201229183512.png")
 
-
 `如果出现mq启动报错ERROR: Please set the JAVA_HOME variable in your environment, We need java(x64)! !!`
+
 ```shell
 ln -s /usr/local/jdk1.8.0_191/bin/javac /usr/bin/javac
 ln -s  /usr/local/jdk1.8.0_191/bin/jar /usr/bin/jar
