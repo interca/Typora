@@ -1949,12 +1949,14 @@ public class OrderedProducer {
         producer.setNamesrvAddr("rocketmqOS:9876");
         producer.start();
         for (int i = 0 ; i < 100 ; i++) {
+            //用orderId作为消息key
             Integer orderId = i;
             byte[] body = ("Hi," + i).getBytes();
             Message msg = new Message("TopicA", "TagA", body);
             SendResult sendResult = producer.send(msg, new MessageQueueSelector() {
                 @Override
                 public MessageQueue select(List<MessageQueue> mqs,Message msg, Object arg) {
+                       //这里arg就是orderId
                         Integer id = (Integer) arg;
                         int index = id % mqs.size();
                         return mqs.get(index);
