@@ -8,6 +8,8 @@ Docker CE 分为 `stable` `test` 和 `nightly` 三个更新频道。
 
 # 1.CentOS安装Docker
 
+
+
 Docker CE 支持 64 位版本 CentOS 7，并且要求内核版本不低于 3.10， CentOS 7 满足最低内核的要求，所以我们在CentOS 7安装Docker。
 
 
