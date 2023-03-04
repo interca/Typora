@@ -856,6 +856,97 @@ void solve(){
 
 
 
+
+
+### 16、**Unforgivable Curse**(div855)
+
+题目
+给定 n , k
+给两个长度为n的字符串s1,s2
+可以让a [i] 和a[i + k]  或者  a[i + k + 1]的数交换
+问能不能使得s1 ==  s2
+
+> 思路：
+> a[i] 和 a[i + k + 1]交换
+> a[i + 1]和a[i + k + 1]交换
+> a[i] 和 a[i + k + 1]交换
+> 我们可以交换a[i] 和a[i + 1]
+>
+> + 也就是i 可以到达的点i + 1也可以到达
+>   我们找出不能交换的点  也就是 i + k >= n   -> i >= n - k
+> + 同理往前也是， i- k <= -1   - >   i <= k - 1
+>
+> 最后要取并集
+
+```cpp
+void solve(){
+  int n,k;
+  cin>>n>>k;
+  string s1,s2;
+  cin>>s1>>s2;
+  map<char,int>m1,m2;
+  for(auto k : s1)m1[k] ++;
+  for(auto k : s2)m2[k] ++;
+  if(m1 != m2){
+    cout<<"NO"<<endl;
+    return;
+  }
+  for(int i = max(n - k,0); i <= min(n - 1,k - 1);  i ++){
+    if(s1[i] != s2[i]){
+      cout<<"NO"<<endl;
+      return;
+    }
+  }
+  cout<<"YES"<<endl;
+}
+```
+
+
+
+
+
+### 17、判断只有三个因数的cf142
+
+给一个数组，判断每一个数是否只有3个因数
+
+>方法
+>其实两个已经确定，1和本身
+>我们将其开方，其开发数必须为质数并且可以被开方
+
+```cpp
+
+void solve(){
+   int n;
+   cin>>n;
+   vector<int>v(n);
+   long long N = 1e6;
+   vector<long long>prime(N + 1,0);
+   prime[0] = prime[1] = 1;
+   for(long long i = 2 ; i <= N ; i ++){
+     if(prime[i] == 0){
+        for(long long j = i + i ; (long long)j<= N; j += i){
+            prime[j] = 1;
+        }
+     }
+   }
+   for(int i = 0 ; i < n ; i ++){
+     long long a;
+     cin>>a;
+     long long m  = sqrt(a);
+     if(m * m == a && prime[m] == 0){
+       cout<<"YES"<<endl;
+     } 
+     else cout<<"NO"<<endl;
+   }
+}
+```
+
+
+
+
+
+
+
 ## 三、动态规划
 
 ### 1、妖塔(华东交通牛客月赛)
