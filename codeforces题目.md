@@ -1004,6 +1004,37 @@ int main(){
 
 
 
+### 18、按钮
+
+两个数n  m  可以把n  * 2 或者 n - 1,求把n -> m要最少多少步
+
+>可以反过来，m可以除以2或者加一
+>我们可以看成二进制，如果m比n大，并且可以除以2，就右移
+>否则就加一，直到可以右移
+
+
+
+```cpp
+void solve(){
+  int n,m;
+  cin>>n>>m;
+  int sum=0;
+   while( n < m){
+    if(m%2!=0){
+        m++;
+        sum++;
+    }
+    else{
+      m/=2;
+      sum++;
+    }
+  }
+  cout<<sum + abs(m - n)<<'\n';
+}
+```
+
+
+
 
 
 ## 四、图论
@@ -1128,6 +1159,49 @@ void solove(){
       }
       cout<<flag<<endl;
   }
+}
+```
+
+
+
+
+
+
+
+## 六、回溯
+
+### 1、按钮(cf295)
+
+题目
+给n 和 m,可以将n*2或者将n - 1  求吧n变为m的最小次数
+
+>回溯就行了，用数组记录变到当前数要多少步数，如果当前步数大于它，就不要回溯
+
+```cpp
+int n,m;
+int mn = 100000000;
+const int N = 100;
+int vist[1000000];
+void dfs(int x,int sum){
+  if(x < 0 || x >= 2 * m)return;
+  if(x == m){
+     mn = min(mn,sum);
+     return;
+  }
+  if(vist[x] <= sum)return;
+  vist[x] = sum;
+  dfs(x * 2,sum + 1);
+  dfs(x - 1,sum + 1);
+}
+void solve(){
+  memset(vist,100,sizeof(vist));
+  cin>>n>>m;
+  if(n >= m){
+    cout<<n - m<<endl;
+    return;
+  }
+  dfs(n,0);
+  cout<<mn<<endl;
 }
 ```
 
